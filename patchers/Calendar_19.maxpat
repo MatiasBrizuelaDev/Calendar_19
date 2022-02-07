@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 110.0, 79.0, 1587.0, 918.0 ],
+		"rect" : [ 171.0, 80.0, 1587.0, 918.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,79 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-479",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1213.0, 403.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-478",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 832.0, 397.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-477",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 463.0, 403.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-473",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 27.0, 380.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-469",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 68.0, 415.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-468",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 147.083343267440796, 1357.416652053594589, 112.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1058.095263991951015, 274.83328315615654, 112.0, 20.0 ],
+					"text" : "Set midi channel"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-491",
 					"maxclass" : "comment",
@@ -100,7 +173,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1753.0, 1030.0, 128.0, 128.0 ],
+					"patching_rect" : [ 2098.0, 1030.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1367.095263991951015, 152.833333373069763, 13.178583894371059, 516.500026702880859 ],
 					"proportion" : 0.5
@@ -117,7 +190,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1738.0, 1015.0, 128.0, 128.0 ],
+					"patching_rect" : [ 2083.0, 1015.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 277.654759730697606, 131.833333373069763, 1102.619088155624468, 16.500026702880859 ],
 					"proportion" : 0.5
@@ -134,7 +207,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1738.0, 1015.0, 128.0, 128.0 ],
+					"patching_rect" : [ 2083.0, 1015.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 279.654759730697606, 152.833333373069763, 13.178583894371059, 516.500026702880859 ],
 					"proportion" : 0.5
@@ -151,26 +224,9 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1723.0, 1000.0, 128.0, 128.0 ],
+					"patching_rect" : [ 2068.0, 1000.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 294.630942004024632, 649.833333373069763, 1070.869091612994907, 19.500026702880859 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"grad2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"id" : "obj-483",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1738.0, 1015.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 298.500009894371033, 250.499977827072144, 195.211874105629022, 82.0 ],
 					"proportion" : 0.5
 				}
 
@@ -185,9 +241,9 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1723.0, 1000.0, 128.0, 128.0 ],
+					"patching_rect" : [ 2068.0, 1000.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.166689991950989, 528.499999517276819, 360.928574000000026, 118.166666871234838 ],
+					"presentation_rect" : [ 992.166689991950989, 528.499999517276819, 372.928574000000026, 118.166666871234838 ],
 					"proportion" : 0.5
 				}
 
@@ -202,166 +258,10 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1708.0, 985.0, 128.0, 128.0 ],
+					"patching_rect" : [ 2053.0, 985.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 897.428574000000026, 152.833333373069763, 465.666689991950761, 88.500026702880859 ],
 					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-480",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 319.976231983901926, 1806.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-479",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.976231983901926, 1791.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-478",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 989.238115991950963, 1791.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-477",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1145.5, 1791.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-475",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1329.0, 1503.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-474",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1195.0, 1502.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-473",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 941.0, 1501.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-472",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 1088.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-471",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 766.761884008049037, 1501.83333683013916, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-469",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1331.500027418136597, 1086.666703999999982, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-470",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1151.500027418136597, 1076.000000000000227, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-468",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 921.0, 1047.666703999999982, 80.0, 22.0 ],
-					"text" : "speedlim 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-466",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 781.261884008049037, 1063.666703999999982, 80.0, 22.0 ],
-					"text" : "speedlim 250"
 				}
 
 			}
@@ -4562,7 +4462,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1017.700000000000045, 642.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 565.795235024093699, 279.499977827072144, 84.0, 20.0 ],
+					"presentation_rect" : [ 370.795235024093699, 279.499977827072144, 84.0, 20.0 ],
 					"text" : "Midi Channel"
 				}
 
@@ -4575,7 +4475,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1352.166689991950989, 641.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 739.461884008049083, 280.499977827072144, 84.0, 20.0 ],
+					"presentation_rect" : [ 544.461884008049083, 280.499977827072144, 84.0, 20.0 ],
 					"text" : "Midi Channel"
 				}
 
@@ -4588,7 +4488,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1352.166689991950989, 641.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 900.928574000000026, 279.499977827072144, 84.0, 20.0 ],
+					"presentation_rect" : [ 705.928574000000026, 279.499977827072144, 84.0, 20.0 ],
 					"text" : "Midi Channel"
 				}
 
@@ -4601,7 +4501,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1337.166689991950989, 626.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1073.928574000000026, 279.499977827072144, 84.0, 20.0 ],
+					"presentation_rect" : [ 878.928574000000026, 279.499977827072144, 84.0, 20.0 ],
 					"text" : "Midi Channel"
 				}
 
@@ -13058,7 +12958,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 410.0, 521.0, 50.0, 22.0 ]
+									"patching_rect" : [ 410.0, 521.0, 50.0, 22.0 ],
+									"text" : "1"
 								}
 
 							}
@@ -13081,7 +12982,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 299.0, 521.0, 50.0, 22.0 ]
+									"patching_rect" : [ 299.0, 521.0, 50.0, 22.0 ],
+									"text" : "1"
 								}
 
 							}
@@ -13104,7 +13006,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 196.538115991950917, 515.0, 50.0, 22.0 ]
+									"patching_rect" : [ 196.538115991950917, 515.0, 50.0, 22.0 ],
+									"text" : "1"
 								}
 
 							}
@@ -13822,7 +13725,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 1285.000029991950896, 40.0, 30.0, 30.0 ]
 								}
 
@@ -19072,7 +18975,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1556.833344340324402, 1674.749994844198227, 112.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 703.000034332275391, 464.08332821726799, 112.0, 20.0 ],
+					"presentation_rect" : [ 702.000034332275391, 464.08332821726799, 112.0, 20.0 ],
 					"text" : "Set midi channel"
 				}
 
@@ -19123,7 +19026,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1502.333344340324402, 1673.749994844198227, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 648.500034332275391, 463.08332821726799, 50.0, 22.0 ]
+					"presentation_rect" : [ 647.500034332275391, 463.08332821726799, 50.0, 22.0 ]
 				}
 
 			}
@@ -19244,7 +19147,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.083343267440796, 1342.416652053594589, 112.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1239.121459259391486, 275.83328315615654, 112.0, 20.0 ],
+					"presentation_rect" : [ 1240.121459259391486, 275.83328315615654, 112.0, 20.0 ],
 					"text" : "Set midi channel"
 				}
 
@@ -19295,7 +19198,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 77.583343267440796, 1341.416652053594589, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1184.621459259391486, 274.83328315615654, 50.0, 22.0 ]
+					"presentation_rect" : [ 1185.621459259391486, 274.83328315615654, 50.0, 22.0 ]
 				}
 
 			}
@@ -19377,7 +19280,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1886.476197340324461, 629.416652053594589, 50.0, 22.0 ]
+					"patching_rect" : [ 1886.476197340324461, 629.416652053594589, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1000.928577695488002, 274.83328315615654, 50.0, 22.0 ]
 				}
 
 			}
@@ -19461,7 +19366,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1446.476197340324461, 629.416652053594589, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1010.928574000000026, 279.499977827072144, 50.0, 22.0 ]
+					"presentation_rect" : [ 815.928574000000026, 279.499977827072144, 50.0, 22.0 ]
 				}
 
 			}
@@ -19545,7 +19450,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1062.142853000000059, 629.416652053594589, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 837.928574000000026, 279.499977827072144, 50.0, 22.0 ]
+					"presentation_rect" : [ 642.928574000000026, 279.499977827072144, 50.0, 22.0 ]
 				}
 
 			}
@@ -19651,7 +19556,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 681.142853000000059, 629.416652053594589, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 676.461884008049083, 278.499977827072144, 50.0, 22.0 ]
+					"presentation_rect" : [ 481.461884008049083, 278.499977827072144, 50.0, 22.0 ]
 				}
 
 			}
@@ -19713,7 +19618,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 294.142853000000002, 629.416652053594589, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 505.366689991951034, 279.499977827072144, 50.0, 22.0 ]
+					"presentation_rect" : [ 310.366689991951034, 279.499977827072144, 50.0, 22.0 ]
 				}
 
 			}
@@ -24001,7 +23906,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1300.333379983901978, 1712.5, 84.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 825.166689991950989, 440.833333373069763, 124.000001192092896, 20.0 ],
+					"presentation_rect" : [ 824.166689991950989, 440.833333373069763, 124.000001192092896, 20.0 ],
 					"text" : "DosunoToUnocuatro"
 				}
 
@@ -24057,7 +23962,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1241.095263991951015, 1782.583375106255062, 147.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 824.928574000000026, 488.916708479324825, 147.0, 22.0 ]
+					"presentation_rect" : [ 823.928574000000026, 488.916708479324825, 147.0, 22.0 ]
 				}
 
 			}
@@ -26412,7 +26317,7 @@
 					"patching_rect" : [ 911.333379983901978, 1712.5, 84.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 647.500034332275391, 440.833333373069763, 114.761884008049037, 33.0 ],
+					"presentation_rect" : [ 646.500034332275391, 440.833333373069763, 114.761884008049037, 33.0 ],
 					"text" : "CuatrotresToTresdos"
 				}
 
@@ -26468,7 +26373,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 852.095263991951015, 1782.583375106255062, 147.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 647.690461703537039, 488.916708479324825, 147.0, 22.0 ]
+					"presentation_rect" : [ 646.690461703537039, 488.916708479324825, 147.0, 22.0 ]
 				}
 
 			}
@@ -26914,13 +26819,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-24",
-									"linecount" : 2,
+									"linecount" : 14,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1401.0, 748.0, 65.0, 545.0 ],
-									"text" : "[ [ 0. ] ] [ [ 0. ] ]"
+									"text" : "[ [ [ 0. ] 0. [ 0. ] 0. [ 0. 0. 0. ] 0. [ 0. ] [ 0. ] [ 0. ] [ 0. 0. 0. ] [ 0. 0. 0. ] [ 0. ] ] ] [ [ [ 0. ] 0. [ 0. ] 0. [ 0. 0. 0. ] 0. [ 0. ] [ 0. ] [ 0. ] [ 0. 0. 0. ] [ 0. 0. 0. ] [ 0. ] ] ]"
 								}
 
 							}
@@ -28884,8 +28789,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1742.500027418136597, 611.499977827072144, 84.0, 34.0 ],
-					"text" : "Rhyhm\n"
+					"patching_rect" : [ 1742.500027418136597, 611.499977827072144, 106.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 994.238115991950735, 251.083326230446346, 106.0, 34.0 ],
+					"text" : "Rhyhmic Section\n"
 				}
 
 			}
@@ -28938,7 +28845,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1683.261911426185634, 681.583352933327205, 147.0, 22.0 ]
+					"patching_rect" : [ 1683.261911426185634, 681.583352933327205, 147.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1000.928577695488002, 300.000006208817013, 147.0, 22.0 ]
 				}
 
 			}
@@ -29030,7 +28939,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1322.166689991950989, 611.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1010.928574000000026, 250.499977827072144, 18.0, 20.0 ],
+					"presentation_rect" : [ 815.928574000000026, 250.499977827072144, 18.0, 20.0 ],
 					"text" : "I"
 				}
 
@@ -29086,7 +28995,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1262.928574000000026, 681.583352933327205, 147.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1010.928574000000026, 303.583352933327205, 147.0, 22.0 ]
+					"presentation_rect" : [ 815.928574000000026, 303.583352933327205, 147.0, 22.0 ]
 				}
 
 			}
@@ -29139,7 +29048,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 939.166689991950989, 611.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 837.928574000000026, 250.499977827072144, 18.0, 20.0 ],
+					"presentation_rect" : [ 642.928574000000026, 250.499977827072144, 18.0, 20.0 ],
 					"text" : "II"
 				}
 
@@ -29195,7 +29104,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 879.928574000000026, 681.583352933327205, 147.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 837.928574000000026, 303.583352933327205, 147.0, 22.0 ]
+					"presentation_rect" : [ 642.928574000000026, 303.583352933327205, 147.0, 22.0 ]
 				}
 
 			}
@@ -29248,7 +29157,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 567.700000000000045, 611.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 672.700000000000045, 250.499977827072144, 20.466689991950943, 20.0 ],
+					"presentation_rect" : [ 477.700000000000045, 250.499977827072144, 20.466689991950943, 20.0 ],
 					"text" : "III"
 				}
 
@@ -29304,7 +29213,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 508.461884008049083, 681.583352933327205, 147.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 676.461884008049083, 303.583352933327205, 147.0, 22.0 ]
+					"presentation_rect" : [ 481.461884008049083, 303.583352933327205, 147.0, 22.0 ]
 				}
 
 			}
@@ -29357,7 +29266,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 166.033351016044662, 611.499977827072144, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 505.366689991951034, 250.499977827072144, 24.0, 20.0 ],
+					"presentation_rect" : [ 310.366689991951034, 250.499977827072144, 24.0, 20.0 ],
 					"text" : "IV"
 				}
 
@@ -29413,7 +29322,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 106.795235024093699, 681.583352933327205, 147.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.795235024093699, 303.583352933327205, 147.0, 22.0 ]
+					"presentation_rect" : [ 307.795235024093699, 303.583352933327205, 147.0, 22.0 ]
 				}
 
 			}
@@ -29455,7 +29364,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 340.366689991951034, 1340.5, 84.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1178.166689991950761, 250.916631102561951, 84.0, 20.0 ],
+					"presentation_rect" : [ 1179.166689991950761, 250.916631102561951, 84.0, 20.0 ],
 					"text" : "Interpolator"
 				}
 
@@ -29511,7 +29420,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 281.128574000000071, 1410.583375106255062, 147.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1178.166689991950761, 300.000006208817013, 147.0, 22.0 ]
+					"presentation_rect" : [ 1179.166689991950761, 300.000006208817013, 147.0, 22.0 ]
 				}
 
 			}
@@ -30783,7 +30692,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 885.833333849906921, 1008.500000178813934, 50.0, 22.0 ],
-									"text" : "4"
+									"text" : "5"
 								}
 
 							}
@@ -31354,7 +31263,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 506.0, 1008.500000178813934, 50.0, 22.0 ],
-									"text" : "5"
+									"text" : "3"
 								}
 
 							}
@@ -31373,7 +31282,7 @@
 , 							{
 								"box" : 								{
 									"bwcompatibility" : 80100,
-									"clefs" : [ "FFG" ],
+									"clefs" : [ "FFGG" ],
 									"defaultnoteslots" : [ "null" ],
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -31387,7 +31296,7 @@
 									"numvoices" : 1,
 									"out" : "nnnnnnnn",
 									"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
-									"patching_rect" : [ 1146.833377122879028, 867.166660249233246, 1125.0, 258.666666666666629 ],
+									"patching_rect" : [ 1146.833377122879028, 867.166660249233246, 1125.0, 314.666666666666629 ],
 									"pitcheditrange" : [ "null" ],
 									"stafflines" : [ 5 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -31466,7 +31375,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 597.0, 446.0, 411.0, 116.0 ],
-													"text" : "[ -3 ]"
+													"text" : "[ -15/4 ]"
 												}
 
 											}
@@ -32215,7 +32124,7 @@
 								"box" : 								{
 									"bwcompatibility" : 80100,
 									"cautionaryaccidentalsdecay" : 2563,
-									"clefs" : [ "FFG" ],
+									"clefs" : [ "FF" ],
 									"defaultnoteslots" : [ "null" ],
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -32376,7 +32285,7 @@
 , 							{
 								"box" : 								{
 									"bwcompatibility" : 80100,
-									"clefs" : [ "FFG" ],
+									"clefs" : [ "FF" ],
 									"defaultnoteslots" : [ "null" ],
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -32390,7 +32299,7 @@
 									"numvoices" : 1,
 									"out" : "nnnnnnnn",
 									"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
-									"patching_rect" : [ 1016.388896783193104, 482.166623552640431, 1147.333351850509644, 194.0 ],
+									"patching_rect" : [ 1016.388896783193104, 482.166623552640431, 1147.333351850509644, 152.0 ],
 									"pitcheditrange" : [ "null" ],
 									"stafflines" : [ 5 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -34112,7 +34021,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 870.833333849906921, 993.500000178813934, 50.0, 22.0 ],
-									"text" : "4"
+									"text" : "5"
 								}
 
 							}
@@ -34683,7 +34592,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 491.0, 993.500000178813934, 50.0, 22.0 ],
-									"text" : "5"
+									"text" : "1"
 								}
 
 							}
@@ -34795,7 +34704,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 597.0, 446.0, 411.0, 116.0 ],
-													"text" : "[ -3 ]"
+													"text" : "[ -5 ]"
 												}
 
 											}
@@ -37362,7 +37271,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 870.833333849906921, 993.500000178813934, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "2"
 								}
 
 							}
@@ -37576,24 +37485,26 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-12",
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 597.0, 773.0, 412.0, 169.0 ],
-													"text" : "[ [ ] ]"
+													"text" : "[ [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] ]"
 												}
 
 											}
 , 											{
 												"box" : 												{
 													"id" : "obj-10",
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 222.0, 773.0, 332.0, 210.0 ],
-													"text" : "[ [ ] ]"
+													"text" : "[ [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] ]"
 												}
 
 											}
@@ -37933,7 +37844,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 491.0, 993.500000178813934, 50.0, 22.0 ],
-									"text" : "5"
+									"text" : "1"
 								}
 
 							}
@@ -38051,24 +37962,26 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-12",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 597.0, 446.0, 411.0, 116.0 ],
-													"text" : "[ -21/4 ]"
+													"text" : "[ 1/4 -1/4 1/2 -1/4 1/4 -1/4 1/4 -1/2 1/4 -1/4 1/4 1/4 -1/2 1/4 -1/4 1/4 -1/2 1/4 -1/4 1/4 -1/4 1/2 -1/4 1/4 1/4 1/4 1/2 -1/4 1/4 -35/4 ]"
 												}
 
 											}
 , 											{
 												"box" : 												{
 													"id" : "obj-10",
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 222.0, 446.0, 332.0, 143.0 ],
-													"text" : "[ -7/4 ]"
+													"text" : "[ 1/20 -1/20 1/10 -1/20 1/20 -1/20 1/20 -1/10 1/20 -1/20 1/20 1/20 -1/10 1/20 -1/20 1/20 -1/10 1/20 -1/20 1/20 -1/20 1/10 -1/20 1/20 1/20 1/20 1/10 -1/20 1/20 -7/4 ]"
 												}
 
 											}
@@ -38793,7 +38706,7 @@
 								"box" : 								{
 									"bwcompatibility" : 80100,
 									"cautionaryaccidentalsdecay" : 2563,
-									"clefs" : [ "FGG" ],
+									"clefs" : [ "FG" ],
 									"defaultnoteslots" : [ "null" ],
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -38954,7 +38867,7 @@
 , 							{
 								"box" : 								{
 									"bwcompatibility" : 80100,
-									"clefs" : [ "FGG" ],
+									"clefs" : [ "FG" ],
 									"defaultnoteslots" : [ "null" ],
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -38967,7 +38880,7 @@
 									"numvoices" : 1,
 									"out" : "nnnnnnnn",
 									"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
-									"patching_rect" : [ 981.388896783193104, 507.166623552640431, 2551.333356261253357, 258.666666666666629 ],
+									"patching_rect" : [ 981.388896783193104, 507.166623552640431, 2551.333356261253357, 202.666666666666657 ],
 									"pitcheditrange" : [ "null" ],
 									"stafflines" : [ 5 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -40372,7 +40285,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 1724.0, 957.0 ],
+						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -40591,7 +40504,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 727.666741466926624, 40.000043822143653, 30.0, 30.0 ]
 								}
 
@@ -41229,7 +41142,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 885.833333849906921, 1104.500000178813934, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "2"
 								}
 
 							}
@@ -41443,24 +41356,26 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-12",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 597.0, 773.0, 412.0, 169.0 ],
-													"text" : "[ [ ] ]"
+													"text" : "[ [ 6500. ] [ ] [ 6400. ] [ ] [ 6100. 6100. 6100. ] [ ] [ 6000. ] [ 5700. ] [ ] [ 5600. 5600. 5600. ] [ 5500. ] [ ] ]"
 												}
 
 											}
 , 											{
 												"box" : 												{
 													"id" : "obj-10",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 222.0, 773.0, 332.0, 210.0 ],
-													"text" : "[ [ ] ]"
+													"text" : "[ [ 6500. ] [ ] [ 6400. ] [ ] [ 6100. 6100. 6100. ] [ ] [ 6000. ] [ 5700. ] [ ] [ 5600. 5600. 5600. ] [ 5500. ] [ ] ]"
 												}
 
 											}
@@ -41800,7 +41715,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 506.0, 1104.500000178813934, 50.0, 22.0 ],
-									"text" : "2"
+									"text" : "4"
 								}
 
 							}
@@ -41912,19 +41827,20 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 597.0, 446.0, 411.0, 116.0 ],
-													"text" : "[ -3/4 ]"
+													"text" : "[ 1/4 -1/4 1/4 -1/4 1/4 -1/4 1/4 1/4 -1/4 1/4 1/4 -1/4 ]"
 												}
 
 											}
 , 											{
 												"box" : 												{
 													"id" : "obj-10",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 222.0, 446.0, 332.0, 143.0 ],
-													"text" : "[ -3/4 ]"
+													"text" : "[ 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 1/16 -1/16 ]"
 												}
 
 											}
@@ -42779,7 +42695,7 @@
 									"voicenames" : [ "[", "]" ],
 									"voicespacing" : [ -4.0, 20.0 ],
 									"vzoom" : 92.727271999999999,
-									"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 2, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 3, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 4, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 5, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "[", "[", 6, 8, "]", "[", "[", "1/4", 25, "]", "]", "]", "[", "-3/4", 0, "]", 0, "]", 0, "]" ],
+									"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 2, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 3, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 4, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 5, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "[", "[", 6, 8, "]", "[", "[", "1/4", 25, "]", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "[", "leveltype", 2, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085891584, 100, 0, 0, "]", 0, "]", "[", "-1/16", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085865984, 100, 0, 0, "]", 0, "]", "[", "-1/16", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", 0, "]", "]", "[", "-1/16", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "[", "leveltype", 2, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "[", "-1/16", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "]", "[", "-1/16", 0, "]", "]", 0, "]", 0, "]" ],
 									"whole_score_data_count" : [ 1 ]
 								}
 
@@ -42937,7 +42853,7 @@
 									"versionnumber" : 80100,
 									"voicenames" : [ "[", "]" ],
 									"voicespacing" : [ 0.0, 26.0 ],
-									"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 2, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 3, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 4, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 5, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "[", "[", 6, 8, "]", "[", "[", "1/4", 25, "]", "]", "]", "[", "-3/4", 0, "]", 0, "]", 0, "]" ],
+									"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 2, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 3, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 4, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 5, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "[", "[", 6, 8, "]", "[", "[", "1/4", 25, "]", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 26, "]", "[", "3/52", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085891584, 100, 0, 0, "]", 0, "]", "[", "-3/52", 0, "]", "[", "3/52", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085865984, 100, 0, 0, "]", 0, "]", "[", "-3/52", 0, "]", "[", "3/52", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", 0, "]", "[", "-3/52", 0, "]", "[", "3/104", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "[", "leveltype", 18, "]", "[", "3/104", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, 0, "]", 0, "]", "[", "-3/52", 0, "]", "[", "3/52", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "[", "-3/52", 0, "]", "[", "3/52", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", 0, "]", "[", "3/52", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "]", "[", "-3/52", 0, "]", "]", 0, "]", 0, "]" ],
 									"whole_score_data_count" : [ 1 ]
 								}
 
@@ -44577,7 +44493,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 147.083343267440796, 991.000026822090149, 56.5, 22.0 ],
-					"text" : "779"
+					"text" : "750"
 				}
 
 			}
@@ -44599,7 +44515,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 172.0, 79.0, 1586.0, 918.0 ],
+						"rect" : [ 45.0, 599.0, 1586.0, 918.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -46248,7 +46164,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 97.0, 1724.0, 908.0 ],
+						"rect" : [ 34.0, 60.0, 1724.0, 1026.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -47112,7 +47028,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1429.000042796134949, 559.0, 1120.0, 17.0 ],
-									"text" : "[ [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0.510786 ] [ 0.510786 ] [ 0. ] [ 0. ] ]"
+									"text" : "[ [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] [ 0. ] ]"
 								}
 
 							}
@@ -47201,13 +47117,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-8",
-													"linecount" : 729,
+													"linecount" : 424,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1232.0, 269.0, 55.0, 8240.0 ],
-													"text" : "[ [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 1 ] [ 1 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 1 ] [ 1 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 1 ] [ 1 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 1 ] [ 1 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 1 ] [ 1 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 1 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 1 ] [ 1 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 ] [ [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 0 0 0 0 0 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 1 0 1 0 1 ] [ 0 0 0 0 0 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 0 0 0 0 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 1 1 0 1 ] [ 0 0 0 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 0 0 0 0 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 1 1 0 1 0 ] [ 0 0 0 0 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 0 0 0 0 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 1 1 1 1 0 ] [ 0 0 0 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 0 0 0 0 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 1 0 1 1 0 ] [ 0 0 0 0 0 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 0 0 0 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 0 0 0 ] [ 1 0 ] [ 1 0 ] [ 1 0 1 ] [ 1 0 1 1 ] [ 0 0 0 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 1 ] [ 0 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 1 1 0 ] [ 1 1 1 0 ] [ 1 1 1 1 0 ] [ 0 0 0 0 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 1 1 ] [ 0 1 1 ] [ 1 0 1 1 ] [ 0 0 0 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 1 ] [ 0 1 ] [ 0 1 1 ] [ 0 1 1 ] [ 0 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 ] [ 0 1 1 1 1 ] [ 0 1 1 1 1 ] [ 0 1 1 1 1 ] [ 0 1 1 1 1 ] [ 0 1 1 1 1 ] [ 0 0 0 0 0 ] [ 0 1 0 ] [ 0 1 0 ] [ 0 0 0 ] [ 0 0 1 ] [ 0 0 1 ] [ 0 0 0 ] [ 0 0 1 ] [ 0 0 1 ] [ 0 0 0 ] [ 0 1 0 ] [ 0 1 0 ] [ 0 1 0 ] [ 0 1 0 1 ] [ 0 1 0 1 ] [ 0 1 0 1 ] [ 0 1 0 1 1 ] [ 0 1 0 1 1 ] [ 0 1 0 1 1 ] [ 0 1 0 1 1 ] [ 0 1 0 1 1 ] [ 0 1 0 1 1 ] [ 0 1 0 1 1 ] [ 0 1 0 1 1 ] [ 0 0 0 0 0 ] [ 0 0 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 1 1 ] [ 0 0 0 0 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 1 0 1 1 1 ] [ 0 0 0 0 0 ] [ 1 1 1 1 ] [ 0 0 0 0 ] [ 0 0 1 ] [ 1 1 1 1 1 ] [ 1 1 1 1 1 ] [ 1 1 1 1 1 ] [ 1 1 1 1 1 ] [ 1 1 1 1 1 ] [ 0 0 0 0 0 ] [ 0 0 0 0 0 ] [ 1 1 1 1 ] [ 0 1 0 0 ] [ 1 1 1 1 1 ] [ 0 0 0 0 0 ] 0 ]"
+													"text" : "[ [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ ] [ ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ ] [ ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] [ ] [ ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] ] [ [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 1 1 ] [ 1 1 0 0 0 ] [ 0 1 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 0 ] [ 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 1 ] [ 1 1 1 1 1 ] [ 1 1 0 0 0 ] [ 1 1 ] [ 1 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 0 ] [ 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 1 ] [ 1 1 1 1 1 ] [ 1 1 0 0 0 ] [ 1 1 ] [ 1 1 ] [ 1 1 ] [ 1 0 ] [ 1 ] [ 1 0 0 0 0 ] [ 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 1 ] [ 1 1 1 1 1 ] [ 1 1 0 0 0 ] [ 1 1 ] [ 1 1 ] [ 0 1 ] [ 1 ] [ 1 0 0 0 0 ] [ 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 1 ] [ 1 1 ] [ 1 1 0 0 0 ] [ 1 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 1 1 ] [ 1 1 0 0 0 ] [ 1 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 0 ] [ 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 1 ] [ 1 1 1 1 1 ] [ 1 1 0 0 0 ] [ 1 1 ] [ 0 1 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 0 ] [ 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 1 ] [ 1 1 1 1 1 ] [ 1 1 0 0 0 ] [ 1 1 ] [ 1 1 ] [ 1 1 ] [ 0 1 ] [ 1 ] [ 1 0 0 0 0 ] [ 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 1 ] [ 1 1 1 1 1 ] [ 1 1 0 0 0 ] [ 1 1 ] [ 1 1 ] [ 0 1 ] [ 1 ] [ 1 0 0 0 0 ] [ 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 1 ] [ 1 1 ] [ 1 1 0 0 0 ] [ 0 1 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 0 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 1 1 ] [ 1 1 0 0 0 ] [ 0 1 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 1 ] [ 0 ] [ 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 1 ] [ 1 1 1 1 1 ] [ 1 1 0 0 0 ] [ 1 1 ] [ 0 1 ] [ 1 ] [ 1 1 1 1 1 ] [ 1 0 0 0 0 ] [ 1 ] [ 1 ] [ 0 ] 0 ] [ 0 [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 1 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 1 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 ]"
 												}
 
 											}
@@ -47306,13 +47222,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 8.0,
 													"id" : "obj-17",
-													"linecount" : 124,
+													"linecount" : 27,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 715.6875, 177.0, 115.0, 464.0 ],
-													"text" : "[ [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 ] [ [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 ] [ [ 0 ] 0 [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 1 0 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ ] [ ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] 0 [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 1 ] [ 0 0 ] 0 [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] 0 [ 0 0 ] [ 0 ] [ 0 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] [ 0 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] 0 [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] 0 [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] 0 [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] [ 0 0 0 ] [ 0 ] [ 1 0 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 1 ] [ 0 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] [ 0 0 ] [ 0 ] ]"
+													"text" : "[ [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 0 ] 0 [ 0 ] 0 [ 0 ] [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] 0 [ 0 ] 0 [ 0 0 0 ] 0 [ 0 ] [ 0 ] 0 ]"
 												}
 
 											}
@@ -47321,13 +47237,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 8.0,
 													"id" : "obj-14",
-													"linecount" : 128,
+													"linecount" : 5,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 603.34375, 177.0, 51.0, 1394.0 ],
-													"text" : "[ [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 ] [ [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 ] [ [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 ]"
+													"text" : "[ [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] [ 0 ] 0 ]"
 												}
 
 											}
@@ -47848,7 +47764,7 @@
 									"versionnumber" : 80100,
 									"voicenames" : [ "[", "]" ],
 									"voicespacing" : [ 0.0, 26.0 ],
-									"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 2, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 3, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 4, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 5, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 85, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 48, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 25, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 48, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 79, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 48, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 87, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 48, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 25, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 48, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 76, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 76, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/4", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 48, 0, 0, "]", 0, "]", "]", "[", "-3/4", 0, "]", 0, "]", 0, "]" ],
+									"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 2, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 3, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 4, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "[", 5, "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", 0, "]" ],
 									"whole_score_data_count" : [ 1 ]
 								}
 
@@ -47857,13 +47773,13 @@
 								"box" : 								{
 									"fontsize" : 8.0,
 									"id" : "obj-6",
-									"linecount" : 27,
+									"linecount" : 22,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1129.5, 519.0, 40.0, 187.0 ],
-									"text" : "[ [ 85.323572 ] [ 48.921426 ] [ 25.439142 ] [ 48.921426 ] [ 79.942215 ] [ 48.921426 ] [ 87.280429 ] [ 48.921426 ] [ 25.439142 ] [ 48.921426 ] [ 76.517715 ] [ 76.517715 ] [ 48.921426 ] ]"
+									"patching_rect" : [ 1129.5, 519.0, 42.0, 411.0 ],
+									"text" : "[ [ 92.495418 ] [ 100. ] [ 87.992668 ] [ 100. ] [ 89.743738 ] [ 100. ] [ 93.496029 ] [ 100. ] [ 87.992668 ] [ 100. ] [ 87.992668 ] [ 87.992668 ] [ 74.984726 ] ]"
 								}
 
 							}
@@ -47876,7 +47792,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 400.999985694885254, 525.5, 17.0, 527.0 ],
+									"patching_rect" : [ 400.999985694885254, 525.5, 17.0, 26.0 ],
 									"text" : "null"
 								}
 
@@ -47890,7 +47806,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 740.5, 525.5, 20.0, 956.0 ],
+									"patching_rect" : [ 740.5, 525.5, 20.0, 26.0 ],
 									"text" : "null"
 								}
 
@@ -47904,7 +47820,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 525.5, 72.0, 17.0 ],
-									"text" : "[ 4.956857 4. ]"
+									"text" : "[ 4.750458 4. ]"
 								}
 
 							}
@@ -47993,13 +47909,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-8",
-													"linecount" : 1159,
+													"linecount" : 643,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1507.0, 224.0, 55.0, 9433.0 ],
-													"text" : "[ [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] ] [ [ 30 70 ] [ 30 70 ] [ 30 63 ] [ 30 63 ] [ 81 30 ] [ 81 30 ] [ 27 30 ] [ 27 30 ] [ 30 70 ] [ 30 70 ] [ 30 63 ] [ 30 63 ] [ 30 ] [ 30 ] [ 81 30 ] [ 81 30 ] [ 27 30 ] [ 27 30 ] [ 30 70 ] [ 30 70 ] [ 30 63 ] [ 30 63 ] [ 30 ] [ 30 ] [ 51 41 ] [ 51 41 ] [ 100 41 ] [ 100 41 ] [ 48 41 ] [ 48 41 ] [ 71 41 ] [ 71 41 ] [ 51 41 ] [ 51 41 ] [ 100 41 ] [ 100 41 ] [ 48 41 ] [ 48 41 ] [ 71 41 ] [ 71 41 ] [ 51 41 ] [ 51 41 ] [ 100 41 ] [ 100 41 ] [ 48 41 ] [ 48 41 ] [ 71 41 ] [ 71 41 ] [ 44 59 ] [ 44 59 ] [ 59 42 ] [ 59 42 ] [ 59 27 ] [ 59 27 ] [ 59 100 ] [ 59 100 ] [ 44 59 ] [ 44 59 ] [ 59 42 ] [ 59 42 ] [ 59 27 ] [ 59 27 ] [ 59 100 ] [ 59 100 ] [ 44 59 ] [ 44 59 ] [ 59 42 ] [ 59 42 ] [ 59 27 ] [ 59 27 ] [ 59 100 ] [ 59 100 ] [ 41 26 ] [ 41 26 ] [ 41 ] [ 41 ] [ 41 80 ] [ 41 80 ] [ 41 59 ] [ 41 59 ] [ 41 26 ] [ 41 26 ] [ 41 ] [ 41 ] [ 41 80 ] [ 41 80 ] [ 41 59 ] [ 41 59 ] [ 41 26 ] [ 41 26 ] [ 41 ] [ 41 ] [ 41 80 ] [ 41 80 ] [ 41 59 ] [ 41 59 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 59 59 47 59 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 59 100 100 47 100 ] [ 37 72 ] [ 37 72 ] [ 37 48 ] [ 37 48 ] [ 37 24 ] [ 37 24 ] [ 37 46 ] [ 37 46 ] [ 37 72 ] [ 37 72 ] [ 37 48 ] [ 37 48 ] [ 37 24 ] [ 37 24 ] [ 37 46 ] [ 37 46 ] [ 37 72 ] [ 37 72 ] [ 37 48 ] [ 37 48 ] [ 37 24 ] [ 37 24 ] [ 37 46 ] [ 37 46 ] [ 37 11 ] [ 37 11 ] [ 48 11 ] [ 48 11 ] [ 11 11 ] [ 11 11 ] [ 11 29 ] [ 11 29 ] [ 37 11 ] [ 37 11 ] [ 48 11 ] [ 48 11 ] [ 11 11 ] [ 11 11 ] [ 11 29 ] [ 11 29 ] [ 37 11 ] [ 37 11 ] [ 48 11 ] [ 48 11 ] [ 11 11 ] [ 11 11 ] [ 11 29 ] [ 11 29 ] [ 42 58 ] [ 42 58 ] [ 11 58 ] [ 11 58 ] [ 47 58 ] [ 47 58 ] [ 34 58 ] [ 34 58 ] [ 42 58 ] [ 42 58 ] [ 11 58 ] [ 11 58 ] [ 47 58 ] [ 47 58 ] [ 34 58 ] [ 34 58 ] [ 42 58 ] [ 42 58 ] [ 11 58 ] [ 11 58 ] [ 47 58 ] [ 47 58 ] [ 34 58 ] [ 34 58 ] [ 25 23 ] [ 25 23 ] [ 23 23 ] [ 23 23 ] [ 28 23 ] [ 28 23 ] [ 23 60 ] [ 23 60 ] [ 25 23 ] [ 25 23 ] [ 23 23 ] [ 23 23 ] [ 28 23 ] [ 28 23 ] [ 23 60 ] [ 23 60 ] [ 25 23 ] [ 25 23 ] [ 23 23 ] [ 23 23 ] [ 28 23 ] [ 28 23 ] [ 23 60 ] [ 23 60 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 64 11 23 22 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 40 64 11 9 40 ] [ 41 51 ] [ 41 51 ] [ 41 61 ] [ 41 61 ] [ 41 48 ] [ 41 48 ] [ 41 71 ] [ 41 71 ] [ 41 51 ] [ 41 51 ] [ 41 61 ] [ 41 61 ] [ 41 48 ] [ 41 48 ] [ 41 71 ] [ 41 71 ] [ 41 51 ] [ 41 51 ] [ 41 61 ] [ 41 61 ] [ 41 48 ] [ 41 48 ] [ 41 71 ] [ 41 71 ] [ 100 44 ] [ 100 44 ] [ 44 59 ] [ 44 59 ] [ 44 42 ] [ 44 42 ] [ 44 27 ] [ 44 27 ] [ 100 44 ] [ 100 44 ] [ 44 59 ] [ 44 59 ] [ 44 42 ] [ 44 42 ] [ 44 27 ] [ 44 27 ] [ 100 44 ] [ 100 44 ] [ 44 59 ] [ 44 59 ] [ 44 42 ] [ 44 42 ] [ 44 27 ] [ 44 27 ] [ 81 30 ] [ 81 30 ] [ 100 30 ] [ 100 30 ] [ 70 30 ] [ 70 30 ] [ 63 30 ] [ 63 30 ] [ 81 30 ] [ 81 30 ] [ 100 30 ] [ 100 30 ] [ 70 30 ] [ 70 30 ] [ 63 30 ] [ 63 30 ] [ 81 30 ] [ 81 30 ] [ 100 30 ] [ 100 30 ] [ 70 30 ] [ 70 30 ] [ 63 30 ] [ 63 30 ] [ 68 47 ] [ 68 47 ] [ 41 47 ] [ 41 47 ] [ 66 47 ] [ 66 47 ] [ 34 47 ] [ 34 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 100 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 59 59 59 47 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 59 100 100 100 ] [ 32 11 ] [ 32 11 ] [ 32 11 11 ] [ 32 11 11 29 ] [ 32 11 11 29 ] [ 11 ] [ 100 11 ] [ 100 11 ] [ 100 11 ] [ 100 11 ] [ 11 100 ] [ 11 100 ] [ 11 100 ] [ 11 100 ] [ 11 100 ] [ 11 100 ] [ 100 11 ] [ 100 11 ] [ 100 11 ] [ 100 11 ] [ 100 11 100 ] [ 100 11 100 ] [ 11 100 ] [ 11 100 ] [ 42 58 ] [ 100 42 58 ] [ 47 100 42 58 ] [ 34 47 100 42 58 ] [ 34 47 100 42 58 ] [ 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 100 58 ] [ 37 100 ] [ 37 24 100 ] [ 37 24 100 ] [ 72 37 24 100 ] [ 72 37 24 100 ] [ 37 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 100 37 ] [ 100 37 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 37 100 ] [ 40 22 ] [ 40 22 ] [ 40 22 ] [ 40 9 ] [ 40 9 ] [ 40 9 ] [ 40 11 ] [ 40 11 ] [ 40 11 ] [ 40 64 ] [ 40 64 ] [ 40 64 ] [ 40 64 100 ] [ 40 64 100 ] [ 40 64 100 ] [ 40 64 100 100 ] [ 40 64 100 100 ] [ 40 64 100 100 ] [ 40 64 100 100 100 ] [ 40 64 100 100 100 ] [ 40 64 100 100 100 ] [ 40 64 100 100 100 ] [ 40 64 100 100 100 ] [ 40 64 100 100 100 ] [ 40 40 64 ] [ 40 40 64 ] [ 40 40 64 ] [ 40 64 11 ] [ 40 64 11 ] [ 40 64 11 ] [ 40 64 9 ] [ 40 64 9 ] [ 40 64 9 ] [ 40 100 64 ] [ 40 100 64 ] [ 40 100 64 ] [ 40 100 64 100 ] [ 40 100 64 100 ] [ 40 100 64 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 40 100 64 100 100 ] [ 60 25 28 23 ] [ 44 59 ] [ 44 59 ] [ 42 59 ] [ 42 59 ] [ 27 59 ] [ 27 59 ] [ 42 59 ] [ 42 59 ] [ 44 59 ] [ 44 59 ] [ 42 59 ] [ 42 59 ] [ 27 59 ] [ 27 59 ] [ 42 59 ] [ 42 59 ] [ 44 59 ] [ 44 59 ] [ 42 59 ] [ 42 59 ] [ 27 59 ] [ 27 59 ] [ 42 59 ] [ 42 59 ] [ 81 30 ] [ 81 30 ] [ 30 63 ] [ 30 63 ] [ 30 70 ] [ 30 70 ] [ 30 59 ] [ 30 59 ] [ 30 81 ] [ 30 81 ] [ 30 63 ] [ 30 63 ] [ 30 70 ] [ 30 70 ] [ 30 59 ] [ 30 59 ] [ 30 81 ] [ 30 81 ] [ 30 63 ] [ 30 63 ] [ 30 70 ] [ 30 70 ] [ 30 59 ] [ 30 59 ] [ 41 48 ] [ 41 48 ] [ 41 71 ] [ 41 71 ] [ 51 ] [ 41 100 ] [ 41 100 ] [ 41 48 ] [ 41 48 ] [ 41 71 ] [ 41 71 ] [ 41 51 ] [ 41 51 ] [ 41 100 ] [ 41 100 ] [ 41 48 ] [ 41 48 ] [ 41 71 ] [ 41 71 ] [ 51 ] [ 100 41 ] [ 100 41 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 59 ] [ 59 100 ] [ 59 100 ] [ 59 100 ] [ 59 100 ] [ 59 100 ] [ 59 100 ] [ 59 100 ] [ 59 100 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 59 41 59 80 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 47 30 42 34 ] [ 47 30 42 34 ] [ 24 72 37 ] [ 48 11 11 29 37 ] [ 48 11 11 29 37 ] [ 48 11 11 29 37 ] [ 48 11 11 29 37 ] [ 48 11 11 29 37 ] [ 48 11 11 29 37 ] [ 64 11 9 22 40 ] [ 28 23 60 25 ] [ 28 23 60 25 ] [ 11 23 22 40 64 ] [ 11 23 22 40 64 ] [ ] ]"
+													"text" : "[ [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] [ ] [ 86 ] [ ] [ 90 ] [ 57 ] [ ] [ 108 ] [ ] [ 100 ] [ ] [ 105 ] [ 86 ] [ ] [ 116 ] ] [ [ 30 ] [ 30 27 81 63 70 ] [ 30 27 81 63 70 ] [ 30 ] [ 30 ] [ 30 ] [ 30 41 ] [ 30 41 71 48 51 ] [ 30 41 ] [ 41 ] [ 41 44 59 42 27 ] [ 41 44 59 42 27 ] [ 41 ] [ 41 ] [ 41 ] [ 41 ] [ 41 ] [ 41 46 59 80 26 ] [ 41 ] [ 47 41 ] [ 47 41 41 34 68 ] [ 47 41 41 34 68 ] [ 47 41 ] [ 47 41 ] [ 47 ] [ 47 59 59 59 59 ] [ 47 59 59 59 59 ] [ 47 ] [ 47 ] [ 47 ] [ 37 ] [ 37 46 24 48 72 ] [ 37 ] [ 11 37 ] [ 11 37 48 11 29 ] [ 11 37 48 11 29 ] [ 11 37 ] [ 11 37 ] [ 11 37 ] [ 11 37 ] [ 11 ] [ 11 34 47 42 58 ] [ 11 ] [ 23 ] [ 23 25 23 28 60 ] [ 23 25 23 28 60 ] [ 23 ] [ 23 ] [ 23 40 ] [ 23 40 64 11 22 ] [ 23 40 64 11 22 ] [ 23 40 ] [ 23 40 ] [ 23 40 ] [ 40 ] [ 40 40 64 11 9 ] [ 40 ] [ 41 ] [ 41 71 48 61 51 ] [ 41 71 48 61 51 ] [ 41 ] [ 41 ] [ 41 ] [ 41 ] [ 59 41 ] [ 59 41 44 42 27 ] [ 59 41 ] [ 59 ] [ 59 63 70 81 30 ] [ 59 63 70 81 30 ] [ 59 ] [ 59 ] [ 47 ] [ 47 68 41 66 34 ] [ 47 68 41 66 34 ] [ 47 ] [ 47 ] [ 47 ] [ 59 47 ] [ 59 47 59 59 59 ] [ 59 47 ] [ 59 ] [ 59 46 41 59 80 ] [ 59 46 41 59 80 ] [ 59 ] [ 59 ] [ 59 ] [ 59 ] [ 11 ] [ 11 32 48 11 29 ] [ 11 ] [ 11 58 ] [ 11 58 34 47 42 ] [ 11 58 34 47 42 ] [ 11 58 ] [ 11 58 ] [ 58 ] [ 58 72 37 46 24 ] [ 58 72 37 46 24 ] [ 58 ] [ 58 ] [ 58 ] [ 40 ] [ 40 64 11 9 22 ] [ 40 ] [ 40 64 ] [ 40 64 40 11 9 ] [ 40 64 40 11 9 ] [ 40 64 ] [ 40 64 ] [ 40 64 ] [ 40 64 ] [ 64 ] [ 64 60 25 28 23 ] [ 64 ] [ 59 ] [ 59 42 27 42 44 ] [ 59 42 27 42 44 ] [ 59 ] [ 59 ] [ 59 30 ] [ 59 30 81 63 70 ] [ 59 30 81 63 70 ] [ 59 30 ] [ 59 30 ] [ 59 30 ] [ 30 ] [ 30 51 41 71 48 ] [ 30 ] [ 59 ] [ 59 59 59 59 59 ] [ 59 59 59 59 59 ] [ 59 ] [ 59 ] [ 59 ] [ 59 ] [ 59 41 ] [ 59 41 46 59 80 ] [ 59 41 ] [ 41 ] [ 41 41 34 47 68 ] [ 41 41 34 47 68 ] [ 41 ] [ 41 ] [ 58 ] [ 58 47 30 42 34 ] [ 58 47 30 42 34 ] [ 58 ] [ 58 ] [ 58 ] [ 58 37 ] [ 58 37 46 24 72 ] [ 58 37 ] [ 37 ] [ 37 48 11 11 29 ] [ 37 48 11 11 29 ] [ 37 ] [ 37 ] [ 37 ] [ 37 ] [ 64 ] [ 64 11 9 22 40 ] [ 64 ] [ 64 23 ] [ 64 23 28 60 25 ] [ 64 23 28 60 25 ] [ 64 23 ] [ 64 23 ] [ 23 ] [ 23 11 22 40 64 ] [ 23 11 22 40 64 ] [ 23 ] [ 23 ] [ 23 ] [ ] ] [ [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] [ 100 ] [ 100 ] [ 100 ] [ 63 ] [ 100 ] [ ] ]"
 												}
 
 											}
@@ -48098,13 +48014,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 8.0,
 													"id" : "obj-17",
-													"linecount" : 99,
+													"linecount" : 20,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 767.6875, 175.0, 213.0, 1126.0 ],
-													"text" : "[ [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 100 100 ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 100 100 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ 100 100 ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 100 100 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 100 100 ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 100 100 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ 100 100 ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 100 100 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] ] [ [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 100 100 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 100 100 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ 100 100 ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 100 100 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 100 100 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ 100 100 ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ 100 100 ] [ 59 ] [ ] [ 74 ] [ ] [ 52 ] [ 100 100 ] [ 52 ] [ 52 ] [ ] [ 70 ] [ 100 100 ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 100 100 ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 100 100 ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 100 100 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 70 ] [ ] [ 52 ] [ 100 100 ] [ 59 ] [ ] [ 74 ] [ ] [ 52 ] [ 100 100 ] [ 52 ] [ 52 ] [ ] [ 70 ] [ 100 100 ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 100 100 ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 100 100 ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 100 100 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] ] [ [ 70 ] [ ] [ 52 ] [ 100 59 ] [ 100 59 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 70 ] [ 100 70 ] [ 52 100 ] [ 52 100 ] [ 100 ] [ 100 ] [ 100 59 ] [ 100 59 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 52 100 ] [ 52 100 ] [ 100 52 ] [ 100 52 ] [ 100 ] [ 100 ] [ 100 70 ] [ 100 70 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 59 ] [ 59 100 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 70 ] [ 70 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 59 ] [ 59 100 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 ] [ ] [ 52 ] [ 100 ] [ ] [ 70 ] [ ] [ 52 ] [ 59 ] [ ] [ 100 74 ] [ 74 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 52 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 70 ] [ 100 ] [ 100 70 ] [ 100 ] [ 100 ] [ 100 ] [ 52 100 52 ] [ 100 ] [ 100 59 ] [ 100 ] [ 100 59 ] [ 100 ] [ 100 74 ] [ 100 ] [ 74 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 ] [ 52 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 52 100 ] [ 100 ] [ 100 70 ] [ 100 ] [ 100 70 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 52 ] [ 100 ] [ 100 59 ] [ 100 ] [ 59 100 ] [ 100 ] [ 100 74 ] [ 100 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 70 ] [ 100 ] [ 70 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 59 ] [ 100 ] [ 100 59 ] [ 100 ] [ 100 74 ] [ 100 ] [ 74 100 ] [ 100 ] [ 100 74 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 70 ] [ 100 ] [ ] [ 52 ] [ 100 ] [ 59 ] [ ] [ 74 ] [ ] [ ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 ] [ 100 ] [ 100 70 ] [ 100 70 ] [ 100 ] [ 100 ] [ 100 ] [ ] [ 100 52 ] [ 100 52 ] [ 100 59 ] [ 100 59 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 ] [ 100 ] [ 70 ] [ 100 70 ] [ ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 59 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 ] [ 74 ] [ ] [ 100 74 ] [ 100 ] [ 100 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 70 ] [ 100 ] [ 100 70 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 52 ] [ 100 ] [ 100 59 ] [ 100 ] [ 100 59 ] [ 100 ] [ 100 74 ] [ 100 ] [ 74 100 ] [ 100 ] [ 100 74 ] [ 100 ] [ 100 52 ] [ 100 ] [ 52 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 52 100 ] [ 100 ] [ 100 70 ] [ 100 ] [ 100 70 ] [ 100 ] [ ] [ 100 ] [ 100 52 52 ] [ 100 ] [ 100 59 ] [ 100 ] [ 59 ] [ 100 ] [ 74 ] [ 100 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 52 ] [ 100 ] [ 100 ] [ 70 100 ] [ 70 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 52 100 ] [ 52 100 ] [ 100 59 ] [ 100 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 ] [ 74 100 ] [ 100 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 52 52 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 52 100 ] [ 100 ] [ 70 ] [ ] [ 70 100 ] [ 100 ] [ 100 ] [ 100 ] [ 52 52 ] [ ] [ 100 59 ] [ 100 ] [ 59 100 ] [ 100 ] [ 74 ] [ ] [ 74 ] [ 100 ] [ 100 ] [ 100 ] [ 52 100 ] [ 100 ] [ 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 52 100 ] [ 100 ] [ 52 ] [ 100 ] [ 100 70 ] [ 100 ] [ 70 100 ] [ 100 ] [ ] [ 100 ] [ 52 100 52 ] [ 100 ] [ 59 100 ] [ 59 100 ] [ 100 ] [ 100 ] [ 100 74 ] [ 100 74 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 100 52 ] [ 100 ] [ 52 100 ] [ 100 ] [ 100 52 ] [ 100 ] [ 52 100 ] [ 100 ] ]"
+													"text" : "[ [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 100 100 ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 100 100 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ 100 100 ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 100 100 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ 100 100 ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 100 100 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 100 100 ] [ ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 100 100 ] [ ] [ 70 ] [ ] [ 52 ] [ ] [ 59 ] [ 100 100 ] [ 74 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 100 100 ] [ ] [ 52 ] [ ] [ 59 ] [ ] [ 74 ] [ 100 100 ] [ ] [ 52 ] [ ] [ 52 ] [ 52 ] [ ] [ 70 ] [ ] [ 52 100 100 ] [ ] [ 59 ] [ ] [ 74 ] [ ] [ 52 100 100 ] [ ] [ 52 ] [ 52 ] [ ] ]"
 												}
 
 											}
@@ -48113,13 +48029,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 8.0,
 													"id" : "obj-14",
-													"linecount" : 113,
+													"linecount" : 5,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 603.34375, 175.0, 85.0, 71.0 ],
-													"text" : "[ [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] ] [ [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] ] [ [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] ]"
+													"text" : "[ [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ 100 ] [ ] ]"
 												}
 
 											}
@@ -48614,13 +48530,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-9",
-													"linecount" : 117,
+													"linecount" : 107,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1094.0, 250.0, 242.0, 652.0 ],
-													"text" : "[ 7/24 1/12 -1/12 1/3 1/24 -1/12 7/24 1/12 -1/24 1/24 1/8 3/16 1/16 -1/24 7/24 1/12 -1/12 1/3 [ g 1/8 ] -1/12 1/3 1/12 -1/12 1/3 1/24 -1/24 1/3 1/12 -1/24 1/3 1/16 -1/16 7/24 1/12 -1/12 1/3 1/24 -1/12 7/24 1/12 -1/24 1/24 1/8 3/16 1/16 -1/24 7/24 1/12 -1/12 1/3 [ g 1/8 ] -1/12 1/3 1/12 -1/12 1/3 1/24 -1/24 1/3 1/12 -1/24 1/3 1/16 -1/16 7/24 1/12 -1/12 1/3 1/24 -1/12 7/24 1/12 -1/24 1/24 1/8 3/16 1/16 -1/24 7/24 1/12 -1/12 1/3 [ g 1/8 ] -1/12 1/3 1/12 -1/12 1/3 1/24 -1/24 1/3 1/12 -1/24 1/3 1/16 -1/16 7/24 1/12 -1/12 1/3 1/24 -1/12 7/24 1/12 -1/24 1/24 1/8 3/16 1/16 -1/24 7/24 1/12 -1/12 1/3 [ g 1/8 ] -1/12 1/3 1/12 -1/12 1/3 1/24 -1/24 1/3 1/12 -1/24 1/3 1/16 -1/16 7/24 1/12 -1/12 1/3 1/24 -1/12 7/24 1/12 -1/24 1/24 1/8 3/16 1/16 -1/24 7/24 1/12 -1/12 1/3 [ g 1/8 ] -1/12 1/3 1/12 -1/12 1/3 1/24 -1/24 1/3 1/12 -1/24 1/3 1/16 -1/16 7/24 1/6 1/3 1/8 7/24 1/12 -1/24 1/24 1/8 3/16 1/16 -1/24 7/24 1/12 -1/12 1/3 [ g 1/8 ] -1/12 1/3 1/12 -1/12 1/3 1/24 -1/24 1/3 1/12 -1/24 1/3 1/16 -1/16 7/24 1/12 -1/12 1/3 1/24 -1/12 7/24 1/12 -1/24 1/24 1/8 3/16 1/16 -1/24 7/24 1/12 -1/12 1/3 [ g 1/8 ] -1/12 1/3 1/12 -1/12 1/3 1/24 -1/24 1/3 1/12 -1/24 1/3 1/16 -1/16 7/24 1/12 -1/12 1/3 1/24 -2/3 ] [ 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 7/8 1/12 [ g 1/8 ] 1/12 [ g 1/8 ] 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/12 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 1/24 [ g 1/8 ] 1/24 1/24 1/24 1/24 1/24 3/4 1/6 7/8 1/12 1/8 1/4 1/4 1/6 1/24 7/8 1/6 3/4 3/4 1/6 -7/12 ]"
+													"text" : "[ 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/24 -1/6 -1/24 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/24 -1/6 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 [ g 1/8 ] -1/12 -1/8 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 [ g 1/8 ] -1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 -1/6 [ g 1/8 ] -1/12 1/24 1/24 -1/24 1/12 -1/8 1/12 -1/12 [ g 1/8 ] 1/24 -1/24 1/12 -1/8 1/24 -1/12 1/24 1/24 -1/24 1/24 -1/6 1/24 -1/12 1/24 [ g 1/8 ] -1/24 1/12 -1/6 1/24 -1/16 1/16 [ g 1/8 ] -1/16 1/16 ] [ 1/6 1/12 1/8 1/8 1/4 1/6 1/8 1/4 1/2 1/6 1/24 1/6 1/12 1/4 1/6 1/24 1/8 1/4 1/2 1/6 1/6 1/24 1/24 1/2 1/6 1/12 1/8 1/8 1/4 1/6 1/8 1/4 1/2 1/6 1/24 1/6 1/12 1/4 1/6 1/24 1/8 1/4 1/2 1/6 1/6 1/24 1/24 1/2 1/6 1/12 1/8 1/8 1/4 1/6 1/8 1/4 1/2 1/6 1/24 1/6 1/12 1/4 1/6 1/24 1/8 1/4 1/2 1/6 1/6 1/24 1/24 1/2 1/6 1/12 1/8 1/8 1/4 1/6 1/8 1/4 1/2 1/6 1/24 1/6 1/12 1/4 1/6 1/24 1/8 1/4 1/2 1/6 1/6 1/24 1/24 1/2 1/6 1/12 1/8 1/8 1/4 1/6 1/8 1/4 1/2 1/6 1/24 1/6 1/12 1/4 1/6 1/24 1/8 1/4 1/2 1/6 1/6 1/24 1/24 1/2 1/6 1/12 1/8 1/8 1/4 1/6 1/8 1/4 1/2 1/6 1/24 1/6 1/12 1/4 1/6 1/24 1/8 1/4 1/2 1/6 1/6 1/24 1/24 1/2 1/6 1/12 1/8 1/8 1/4 1/6 1/8 1/4 1/2 1/6 1/24 1/6 1/12 1/4 1/6 1/24 1/8 1/4 1/2 1/6 1/6 1/24 1/24 1/2 1/6 1/12 1/8 1/8 1/4 1/6 -7/12 ] [ -1/6 1/6 1/6 1/16 1/16 7/24 -1/8 1/12 1/8 -1/24 1/6 1/24 7/24 -1/6 1/24 1/6 1/12 1/8 [ g 1/8 ] 1/3 -1/8 1/4 1/6 1/24 7/24 -1/6 1/6 1/24 1/24 1/6 [ g 1/8 ] 1/3 -1/6 1/12 1/8 3/16 1/16 7/24 -1/8 1/4 1/6 1/24 7/24 -1/6 1/24 1/6 1/12 1/8 [ g 1/8 ] 1/3 -1/8 1/4 1/6 1/24 7/24 -1/6 1/6 1/24 1/24 1/6 [ g 1/8 ] 1/3 -1/6 1/12 1/8 3/16 1/16 7/24 -1/8 1/4 1/6 1/24 7/24 -1/6 1/24 1/6 1/12 1/8 [ g 1/8 ] 1/3 -1/8 1/4 1/6 1/24 7/24 -1/6 1/6 1/24 1/24 1/6 [ g 1/8 ] 1/3 -1/6 1/12 1/8 3/16 1/16 7/24 -1/8 1/4 1/6 1/24 7/24 -1/6 1/24 1/6 1/12 1/8 [ g 1/8 ] 1/3 -1/8 1/4 1/6 1/24 7/24 -1/6 1/6 1/24 1/24 1/6 [ g 1/8 ] 1/3 -1/6 1/12 1/8 3/16 1/16 7/24 -1/8 1/4 1/6 1/24 7/24 -1/6 1/24 1/6 1/12 1/8 [ g 1/8 ] 1/3 -1/8 1/4 1/6 1/24 7/24 -1/6 1/6 1/24 1/24 1/6 [ g 1/8 ] 1/3 -1/6 1/12 1/8 3/16 1/16 7/24 -1/8 1/4 1/6 1/24 7/24 -1/6 1/24 1/6 1/12 1/8 [ g 1/8 ] 1/3 -1/8 1/4 1/6 1/24 7/24 -1/6 1/6 1/24 1/24 1/6 [ g 1/8 ] 1/3 -1/6 1/12 1/8 3/16 1/16 7/24 -1/8 1/4 1/6 1/24 7/24 -1/6 1/24 1/6 1/12 1/8 [ g 1/8 ] 1/3 -1/8 1/4 1/6 1/24 7/24 -1/6 1/6 1/24 1/24 1/6 [ g 1/8 ] 1/3 -1/6 1/12 1/8 3/16 1/16 7/24 -7/12 ]"
 												}
 
 											}
@@ -48720,13 +48636,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 8.0,
 													"id" : "obj-17",
-													"linecount" : 141,
+													"linecount" : 35,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 828.6875, 170.0, 128.0, 1787.0 ],
-													"text" : "[ 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 ] [ 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 1/16 -1/16 1/16 -1/8 1/16 1/16 1/16 1/16 -1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 1/16 -1/16 1/16 1/16 1/16 -1/16 1/16 -1/8 1/16 1/16 1/16 1/16 -1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/8 ] [ 1/16 -1/8 1/16 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 -3/32 1/16 1/32 -1/32 1/16 -1/8 1/16 1/16 -1/16 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 -1/8 1/32 1/32 1/32 -3/32 1/32 -3/32 -1/16 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 -1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 -1/16 1/32 1/32 1/32 1/32 1/16 1/32 1/32 1/32 1/32 1/32 -1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 -1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 -1/32 1/32 1/32 1/32 1/32 1/32 -1/32 1/32 1/32 1/32 1/32 1/32 -1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 -1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 1/32 ]"
+													"text" : "[ 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/16 1/16 -1/8 1/16 -1/16 1/16 1/16 -1/16 ]"
 												}
 
 											}
@@ -48735,13 +48651,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 8.0,
 													"id" : "obj-14",
-													"linecount" : 75,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 678.34375, 170.0, 107.0, 214.0 ],
-													"text" : "[ 1/12 1/12 1/24 1/12 1/12 1/12 1/12 1/24 1/12 1/12 1/16 1/16 -1/8 ] [ 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/96 1/96 1/96 1/96 1/96 1/96 1/96 1/96 1/96 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/96 1/96 1/96 1/96 1/96 1/96 1/96 1/96 1/96 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/216 1/216 1/216 1/216 1/216 1/216 1/216 1/216 1/216 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/108 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 -1/8 ] [ 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/48 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/72 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/144 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 1/36 -1/4 ]"
+													"text" : "[ 1/12 1/12 1/24 1/12 1/12 1/12 1/12 1/24 1/12 1/12 1/16 1/16 -1/8 ]"
 												}
 
 											}
@@ -49138,7 +49054,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 212.0, 113.0, 1521.0, 977.0 ],
+										"rect" : [ 166.0, 82.0, 1521.0, 874.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -49205,13 +49121,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-10",
-													"linecount" : 121,
+													"linecount" : 169,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1316.0, 354.0, 52.0, 14715.0 ],
-													"text" : "[ [ [ 3 4 ] [ [ 1/4 36 ] ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] ] [ [ [ 3 4 ] [ [ 1/4 36 ] ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] ]"
+													"patching_rect" : [ 1316.0, 354.0, 55.0, 2274.0 ],
+													"text" : "[ [ [ 3 4 ] [ [ 1/4 36 ] ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] ] [ [ [ 3 4 ] [ [ 1/4 36 ] ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] ] [ [ [ 3 4 ] [ [ 1/4 36 ] ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] [ [ 3 4 ] [ ] ] ]"
 												}
 
 											}
@@ -49262,7 +49178,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 883.0, 690.0, 50.0, 49.0 ],
-													"text" : "[ 4.956857 4. ]"
+													"text" : "[ 4.750458 4. ]"
 												}
 
 											}
@@ -50236,7 +50152,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 555.34375, 200.0, 496.0, 52.0 ],
+													"patching_rect" : [ 555.34375, 200.0, 496.0, 23.0 ],
 													"text" : "[ [ [ 4 4 ] [ [ 1/4 50 ] ] ] [ [ 4 4 ] [ ] ] [ [ 4 4 ] [ ] ] [ [ 4 4 ] [ ] ] [ [ 4 4 ] [ ] ] ]"
 												}
 
@@ -50246,13 +50162,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 13.0,
 													"id" : "obj-17",
-													"linecount" : 12,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 310.6875, 209.0, 157.0, 343.0 ],
-													"text" : "[ [ [ 7 4 ] [ [ 1/4 60 ] ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] ] [ [ [ 7 4 ] [ [ 1/4 60 ] ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] ] [ [ [ 7 4 ] [ [ 1/4 60 ] ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] ]"
+													"patching_rect" : [ 310.6875, 209.0, 160.0, 183.0 ],
+													"text" : "[ [ [ 7 4 ] [ [ 1/4 60 ] ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] [ [ 7 4 ] [ ] ] ]"
 												}
 
 											}
@@ -50261,13 +50177,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 13.0,
 													"id" : "obj-14",
-													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 147.5, 150.0, 139.0, 299.0 ],
-													"text" : "[ [ [ 4 4 ] [ ] ] ] [ [ [ 4 4 ] [ ] ] ] [ [ [ 4 4 ] [ ] ] [ [ 4 4 ] [ ] ] [ [ 4 4 ] [ ] ] [ [ 4 4 ] [ ] ] ]"
+													"patching_rect" : [ 147.5, 150.0, 139.0, 67.0 ],
+													"text" : "[ [ [ 4 4 ] [ ] ] ]"
 												}
 
 											}
@@ -50881,13 +50796,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-22",
-													"linecount" : 2312,
+													"linecount" : 1300,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1764.0, 346.0, 50.0, 34664.0 ],
-													"text" : "[ [ 2400. ] [ 1200. ] [ ] [ 2400. ] [ 1200. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 2900. ] [ 2900. ] [ 1700. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3600. ] [ 2400. ] [ ] [ 3600. ] [ 2400. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2600. ] [ 2600. ] [ 2600. ] [ 1400. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 2900. ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 2400. ] [ 1200. ] [ ] [ 2400. ] [ 1200. ] [ ] [ 2400. ] [ 1200. ] [ ] [ 2400. ] [ 1200. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 2900. ] [ 2900. ] [ 1700. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2600. ] [ 2600. ] [ 2600. ] [ 1400. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 2400. ] [ 1200. ] [ 2400. ] [ 1200. ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 2900. ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 3100. ] [ 1900. ] [ ] [ 2400. ] [ 1200. ] [ ] [ 2400. ] [ 1200. ] [ ] [ 2100. ] [ 900. ] [ ] [ 2100. ] [ 900. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2600. ] [ 2600. ] [ 2600. ] [ 1400. ] [ ] [ 3100. ] [ 1700. ] [ ] [ 3100. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 2900. ] [ 1700. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 3300. ] [ 2100. ] [ ] [ 2600. ] [ 1400. ] [ ] [ 2600. ] [ 1400. ] [ ] ] [ [ 6500. 6900. ] [ 6500. 6900. ] [ 6500. 6700. ] [ 6500. 6700. ] [ 6200. 6500. ] [ 6200. 6500. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 6500. 6900. ] [ 6500. 6900. ] [ 6500. 6700. ] [ 6500. 6700. ] [ 6500. ] [ 6500. ] [ 6200. 6500. ] [ 6200. 6500. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 6500. 6900. ] [ 6500. 6900. ] [ 6500. 6700. ] [ 6500. 6700. ] [ 6500. ] [ 6500. ] [ 6700. 6900. ] [ 6700. 6900. ] [ 6500. 6900. ] [ 6500. 6900. ] [ 6000. 6900. ] [ 6000. 6900. ] [ 5700. 6900. ] [ 5700. 6900. ] [ 6700. 6900. ] [ 6700. 6900. ] [ 6500. 6900. ] [ 6500. 6900. ] [ 6000. 6900. ] [ 6000. 6900. ] [ 5700. 6900. ] [ 5700. 6900. ] [ 6700. 6900. ] [ 6700. 6900. ] [ 6500. 6900. ] [ 6500. 6900. ] [ 6000. 6900. ] [ 6000. 6900. ] [ 5700. 6900. ] [ 5700. 6900. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 6000. 6900. ] [ 6000. 6900. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 6000. 6900. ] [ 6000. 6900. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 6000. 6900. ] [ 6000. 6900. ] [ 5700. 6700. ] [ 5700. 6700. ] [ 5700. ] [ 5700. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5700. 6700. ] [ 5700. 6700. ] [ 5700. ] [ 5700. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5700. 6700. ] [ 5700. 6700. ] [ 5700. ] [ 5700. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6500. ] [ 5500. 6700. ] [ 5500. 6700. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6700. ] [ 5500. 6700. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6700. ] [ 5500. 6700. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 6200. 6500. ] [ 6200. 6500. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 6200. 6500. ] [ 6200. 6500. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 6200. 6500. ] [ 6200. 6500. ] [ 6000. 6500. ] [ 6000. 6500. ] [ 5700. 6500. ] [ 5700. 6500. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. 6000. ] [ 5500. 5700. 6000. 6200. ] [ 5500. 5700. 6000. 6200. ] [ 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. 6000. ] [ 5500. 5700. 6000. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 6000. 6200. ] [ 5700. 6000. 6200. ] [ 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 6200. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 6000. 6200. ] [ 6000. 6200. ] [ 5700. 6200. ] [ 5700. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 5700. 6200. ] [ 5500. 5700. 6200. ] [ 5300. 5500. 5700. 6200. ] [ 5300. 5500. 5700. 6200. ] [ 5500. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5300. 5700. ] [ 5300. 5700. ] [ 5300. 5700. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. 6000. ] [ 5300. 5500. 5700. 6000. ] [ 5300. 5500. 5700. 6000. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. ] [ 5300. 5700. 6000. ] [ 5300. 5700. 6000. ] [ 5300. 5700. 6000. ] [ 5300. 5700. 6200. ] [ 5300. 5700. 6200. ] [ 5300. 5700. 6200. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. ] [ 5300. 5500. 5700. 6000. ] [ 5300. 5500. 5700. 6000. ] [ 5300. 5500. 5700. 6000. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. 6200. ] [ 5300. 5500. 5700. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5000. 6000. ] [ 5000. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5000. 6000. ] [ 5000. 6000. ] [ 5700. 6000. ] [ 5700. 6000. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5000. 6000. ] [ 5000. 6000. ] [ 5000. 5300. ] [ 5000. 5300. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5300. 5700. ] [ 5300. 5700. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5300. 5700. ] [ 5300. 5700. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5300. 6200. ] [ 5300. 6200. ] [ 5300. 6700. ] [ 5300. 6700. ] [ 5300. 5700. ] [ 5300. 5700. ] [ 5300. 6000. ] [ 5300. 6000. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6700. ] [ 5500. 6700. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5300. 5500. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 7200. ] [ 5500. 7200. ] [ 5500. 7200. ] [ 5500. 7200. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 6500. ] [ 5500. 6500. ] [ 5500. 5700. ] [ 5500. 5700. ] [ 5500. 6000. ] [ 5500. 6000. ] [ 5500. 6200. ] [ 5500. 6200. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6200. 6500. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6500. ] [ 5500. 5700. 6000. 6500. ] [ 5700. 6500. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5500. 5700. 6000. 6200. 6700. ] [ 5700. 6000. 6200. 6500. 6700. ] [ 5700. 6000. 6500. 6700. ] [ 5700. 6000. 6500. 6700. ] [ 5700. 6000. 6200. 6500. 6900. ] [ 5700. 6000. 6200. 6500. 6900. ] [ ] ]"
+													"text" : "[ [ 2400. ] [ ] [ 2400. ] [ 2400. ] [ ] [ 2400. ] [ ] [ ] [ 2400. ] [ ] [ 2400. ] [ 2400. ] [ ] [ 2400. ] [ ] [ 2800. ] [ ] [ 2800. ] [ 2800. ] [ ] [ 2800. ] [ ] [ 2800. ] [ ] [ 2800. ] [ 2800. ] [ ] [ 2800. ] [ ] [ 3200. ] [ ] [ 3200. ] [ 3200. ] [ ] [ 3200. ] [ ] [ ] [ 3200. ] [ ] [ 3200. ] [ 3200. ] [ ] [ 3200. ] [ ] [ 3100. ] [ ] [ 3100. ] [ 3100. ] [ ] [ 3100. ] [ ] [ ] [ 3100. ] [ ] [ 3100. ] [ 3100. ] [ ] [ 3100. ] [ ] [ 2300. ] [ ] [ 2300. ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2300. ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2700. ] [ ] [ 2700. ] [ 2700. ] [ ] [ 2700. ] [ ] [ 2700. ] [ ] [ 2700. ] [ 2700. ] [ ] [ 2700. ] [ ] [ 2600. ] [ ] [ 2600. ] [ 2600. ] [ ] [ 2600. ] [ ] [ 2600. ] [ ] [ 2600. ] [ 2600. ] [ ] [ 2600. ] [ ] [ 3000. ] [ ] [ 3000. ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3000. ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3400. ] [ ] [ 3400. ] [ 3400. ] [ ] [ 3400. ] [ ] [ 3400. ] [ ] [ 3400. ] [ 3400. ] [ ] [ 3400. ] [ ] [ 3300. ] [ ] [ 3300. ] [ 3300. ] [ ] [ 3300. ] [ ] [ 3300. ] [ ] [ 3300. ] [ 3300. ] [ ] [ 3300. ] [ ] [ 2500. ] [ ] [ 2500. ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2500. ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2900. ] [ ] [ 2900. ] [ 2900. ] [ ] [ 2900. ] [ ] [ 2900. ] [ ] [ 2900. ] [ 2900. ] [ ] [ 2900. ] [ ] [ 2800. ] [ ] [ 2800. ] [ 2800. ] [ ] [ 2800. ] [ ] [ 2800. ] [ ] [ 2800. ] [ 2800. ] [ ] [ 2800. ] [ ] [ 3200. ] [ ] [ 3200. ] [ 3200. ] [ ] [ 3200. ] [ ] [ 3200. ] [ ] [ 3200. ] [ 3200. ] [ ] [ 3200. ] [ ] [ 2400. ] [ ] [ 2400. ] [ 2400. ] [ ] [ 2400. ] [ ] [ 2400. ] [ ] [ 2400. ] [ 2400. ] [ ] [ 2400. ] [ ] [ 2300. ] [ ] [ 2300. ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2300. ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2700. ] [ ] [ 2700. ] [ 2700. ] [ ] [ 2700. ] [ ] [ 2700. ] [ ] [ 2700. ] [ 2700. ] [ ] [ 2700. ] [ ] [ 3100. ] [ ] [ 3100. ] [ 3100. ] [ ] [ 3100. ] [ ] [ 3100. ] [ ] [ 3100. ] [ 3100. ] [ ] [ 3100. ] [ ] [ 3000. ] [ ] [ 3000. ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3000. ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3400. ] [ ] [ 3400. ] [ 3400. ] [ ] [ 3400. ] [ ] [ 3400. ] [ ] [ 3400. ] [ 3400. ] [ ] [ 3400. ] [ ] [ 2600. ] [ ] [ 2600. ] [ 2600. ] [ ] [ 2600. ] [ ] [ 2600. ] [ ] [ 2600. ] [ 2600. ] [ ] [ 2600. ] [ ] [ 2500. ] [ ] [ 2500. ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2500. ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2900. ] [ ] [ 2900. ] [ 2900. ] [ ] [ 2900. ] [ ] [ 2900. ] [ ] [ 2900. ] [ 2900. ] [ ] [ 2900. ] [ ] [ 3300. ] [ ] [ 3300. ] [ 3300. ] [ ] [ 3300. ] [ ] [ 3300. ] [ ] [ 3300. ] [ 3300. ] [ ] [ 3300. ] [ ] [ 3200. ] [ ] [ 3200. ] [ 3200. ] [ ] [ 3200. ] [ ] [ 3200. ] [ ] [ 3200. ] [ 3200. ] [ ] [ 3200. ] [ ] [ 3600. ] [ ] [ 3600. ] [ 3600. ] [ ] [ 3600. ] [ ] [ 3600. ] [ ] [ 3600. ] [ 3600. ] [ ] [ 3600. ] [ ] [ 2800. ] [ ] [ 2800. ] [ 2800. ] [ ] [ 2800. ] [ ] [ 2800. ] [ ] [ 2800. ] [ 2800. ] [ ] [ 2800. ] [ ] [ 2700. ] [ ] [ 2700. ] [ 2700. ] [ ] [ 2700. ] [ ] [ 2700. ] [ ] [ 2700. ] [ 2700. ] [ ] [ 2700. ] [ ] [ 3100. ] [ ] [ 3100. ] [ 3100. ] [ ] [ 3100. ] [ ] [ 3100. ] [ ] [ 3100. ] [ 3100. ] [ ] [ 3100. ] [ ] [ 2300. ] [ ] [ 2300. ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2300. ] [ 2300. ] [ ] [ 2300. ] [ ] [ 2200. ] [ ] [ 2200. ] [ 2200. ] [ ] [ 2200. ] [ ] [ 2200. ] [ ] [ 2200. ] [ 2200. ] [ ] [ 2200. ] [ ] [ 2600. ] [ ] [ 2600. ] [ 2600. ] [ ] [ 2600. ] [ ] [ 2600. ] [ ] [ 2600. ] [ 2600. ] [ ] [ 2600. ] [ ] [ 3000. ] [ ] [ 3000. ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3000. ] [ ] [ 3000. ] [ 3000. ] [ ] [ 3000. ] [ ] [ 2900. ] [ ] [ 2900. ] [ 2900. ] [ ] [ 2900. ] [ ] [ 2900. ] [ ] [ 2900. ] [ 2900. ] [ ] [ 2900. ] [ ] [ 3300. ] [ ] [ 3300. ] [ 3300. ] [ ] [ 3300. ] [ ] [ 3300. ] [ ] [ 3300. ] [ 3300. ] [ ] [ 3300. ] [ ] [ 2500. ] [ ] [ 2500. ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2500. ] [ ] [ 2500. ] [ 2500. ] [ ] [ 2500. ] ] [ [ 5200. ] [ 5200. 9600. 9800. 10300. 10500. ] [ 5200. 9600. 9800. 10300. 10500. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5200. 5600. ] [ 5200. 5600. 9500. 9700. 10200. ] [ 5200. 5600. ] [ 5600. ] [ 5600. 9400. 9600. 9900. 10100. ] [ 5600. 9400. 9600. 9900. 10100. ] [ 5600. ] [ 5600. ] [ 5600. ] [ 5600. ] [ 5900. ] [ 5900. 9300. 9800. 10000. 10300. ] [ 5900. ] [ 5100. 5900. ] [ 5100. 5900. 9200. 9700. 10200. ] [ 5100. 5900. 9200. 9700. 10200. ] [ 5100. 5900. ] [ 5100. 5900. ] [ 5100. ] [ 5100. 9100. 9400. 9600. 10100. ] [ 5100. 9100. 9400. 9600. 10100. ] [ 5100. ] [ 5100. ] [ 5100. ] [ 5400. ] [ 5400. 9300. 9500. 9800. 10000. ] [ 5400. ] [ 4600. 5400. ] [ 4600. 5400. 9200. 9700. 9900. ] [ 4600. 5400. 9200. 9700. 9900. ] [ 4600. 5400. ] [ 4600. 5400. ] [ 4600. 5400. ] [ 4600. 5400. ] [ 4600. ] [ 4600. 8900. 9100. 9600. 9800. ] [ 4600. ] [ 4900. ] [ 4900. 9000. 9300. 9500. 10000. ] [ 4900. 9000. 9300. 9500. 10000. ] [ 4900. ] [ 4900. ] [ 4900. 5300. ] [ 4900. 5300. 9200. 9400. 9900. ] [ 4900. 5300. 9200. 9400. 9900. ] [ 4900. 5300. ] [ 4900. 5300. ] [ 4900. 5300. ] [ 5300. ] [ 5300. 9100. 9300. 9600. 9800. ] [ 5300. ] [ 5600. ] [ 5600. 9500. 9700. 10000. 10200. ] [ 5600. 9500. 9700. 10000. 10200. ] [ 5600. ] [ 5600. ] [ 5600. ] [ 5600. ] [ 4800. 5600. ] [ 4800. 5600. 9400. 9900. 10100. ] [ 4800. 5600. ] [ 4800. ] [ 4800. 9100. 9300. 9800. 10000. ] [ 4800. 9100. 9300. 9800. 10000. ] [ 4800. ] [ 4800. ] [ 5100. ] [ 5100. 9000. 9200. 9500. 9700. ] [ 5100. 9000. 9200. 9500. 9700. ] [ 5100. ] [ 5100. ] [ 5100. ] [ 4300. 5100. ] [ 4300. 5100. 8900. 9400. 9600. ] [ 4300. 5100. ] [ 4300. ] [ 4300. 9300. 9500. 9800. 10000. ] [ 4300. 9300. 9500. 9800. 10000. ] [ 4300. ] [ 4300. ] [ 4300. ] [ 4300. ] [ 4600. ] [ 4600. 9000. 9200. 9700. 9900. ] [ 4600. ] [ 4600. 5000. ] [ 4600. 5000. 8900. 9100. 9600. ] [ 4600. 5000. 8900. 9100. 9600. ] [ 4600. 5000. ] [ 4600. 5000. ] [ 5000. ] [ 5000. 8800. 9000. 9300. 9500. ] [ 5000. 8800. 9000. 9300. 9500. ] [ 5000. ] [ 5000. ] [ 5000. ] [ 4100. ] [ 4100. 9200. 9400. 9700. 9900. ] [ 4100. ] [ 4100. 4500. ] [ 4100. 4500. 9100. 9600. 9800. ] [ 4100. 4500. 9100. 9600. 9800. ] [ 4100. 4500. ] [ 4100. 4500. ] [ 4100. 4500. ] [ 4100. 4500. ] [ 4500. ] [ 4500. 8800. 9000. 9500. 9700. ] [ 4500. ] [ 4800. ] [ 4800. 8700. 8900. 9200. 9400. ] [ 4800. 8700. 8900. 9200. 9400. ] [ 4800. ] [ 4800. ] [ 4800. 5200. ] [ 4800. 5200. 8600. 9100. 9300. ] [ 4800. 5200. 8600. 9100. 9300. ] [ 4800. 5200. ] [ 4800. 5200. ] [ 4800. 5200. ] [ 5200. ] [ 5200. 9000. 9200. 9500. 9700. ] [ 5200. ] [ 4300. ] [ 4300. 9400. 9600. 9900. 10100. ] [ 4300. 9400. 9600. 9900. 10100. ] [ 4300. ] [ 4300. ] [ 4300. ] [ 4300. ] [ 4300. 4700. ] [ 4300. 4700. 9300. 9800. 10000. ] [ 4300. 4700. ] [ 4700. ] [ 4700. 9200. 9700. 9900. 10200. ] [ 4700. 9200. 9700. 9900. 10200. ] [ 4700. ] [ 4700. ] [ 5000. ] [ 5000. 9100. 9400. 9600. 10100. ] [ 5000. 9100. 9400. 9600. 10100. ] [ 5000. ] [ 5000. ] [ 5000. ] [ 5000. 5400. ] [ 5000. 5400. 9300. 9500. 10000. ] [ 5000. 5400. ] [ 5400. ] [ 5400. 9200. 9400. 9700. 9900. ] [ 5400. 9200. 9400. 9700. 9900. ] [ 5400. ] [ 5400. ] [ 5400. ] [ 5400. ] [ 4500. ] [ 4500. 9600. 9800. 10100. 10300. ] [ 4500. ] [ 4500. 4900. ] [ 4500. 4900. 9500. 10000. 10200. ] [ 4500. 4900. 9500. 10000. 10200. ] [ 4500. 4900. ] [ 4500. 4900. ] [ 4900. ] [ 4900. 9400. 9900. 10100. 10400. ] [ 4900. 9400. 9900. 10100. 10400. ] [ 4900. ] [ 4900. ] [ 4900. ] [ ] ] [ [ ] [ 2400. ] [ 2400. ] [ 2400. ] [ 2400. ] [ 2400. ] [ ] [ 2800. ] [ 2800. ] [ ] [ 2800. ] [ 2800. ] [ 2800. ] [ ] [ 3200. ] [ 3200. ] [ 3200. ] [ 3200. ] [ 3200. ] [ 3200. ] [ ] [ 3100. ] [ 3100. ] [ 3100. ] [ 3100. ] [ ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ ] [ 2700. ] [ 2700. ] [ 2700. ] [ 2700. ] [ 2700. ] [ ] [ 2600. ] [ 2600. ] [ 2600. ] [ 2600. ] [ ] [ 3000. ] [ 3000. ] [ 3000. ] [ 3000. ] [ 3000. ] [ 3000. ] [ ] [ 3400. ] [ 3400. ] [ 3400. ] [ 3400. ] [ ] [ 3300. ] [ 3300. ] [ 3300. ] [ 3300. ] [ 3300. ] [ 3300. ] [ ] [ 2500. ] [ 2500. ] [ 2500. ] [ 2500. ] [ 2500. ] [ ] [ 2900. ] [ 2900. ] [ 2900. ] [ 2900. ] [ ] [ 2800. ] [ 2800. ] [ 2800. ] [ 2800. ] [ 2800. ] [ 2800. ] [ ] [ 3200. ] [ 3200. ] [ 3200. ] [ 3200. ] [ ] [ 2400. ] [ 2400. ] [ 2400. ] [ 2400. ] [ 2400. ] [ 2400. ] [ ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ ] [ 2700. ] [ 2700. ] [ 2700. ] [ 2700. ] [ ] [ 3100. ] [ 3100. ] [ 3100. ] [ 3100. ] [ 3100. ] [ 3100. ] [ ] [ 3000. ] [ 3000. ] [ 3000. ] [ 3000. ] [ ] [ 3400. ] [ 3400. ] [ 3400. ] [ 3400. ] [ 3400. ] [ 3400. ] [ ] [ 2600. ] [ 2600. ] [ 2600. ] [ 2600. ] [ 2600. ] [ ] [ 2500. ] [ 2500. ] [ 2500. ] [ 2500. ] [ ] [ 2900. ] [ 2900. ] [ 2900. ] [ 2900. ] [ 2900. ] [ 2900. ] [ ] [ 3300. ] [ 3300. ] [ 3300. ] [ 3300. ] [ ] [ 3200. ] [ 3200. ] [ 3200. ] [ 3200. ] [ 3200. ] [ 3200. ] [ ] [ 3600. ] [ 3600. ] [ 3600. ] [ 3600. ] [ 3600. ] [ ] [ 2800. ] [ 2800. ] [ 2800. ] [ 2800. ] [ ] [ 2700. ] [ 2700. ] [ 2700. ] [ 2700. ] [ 2700. ] [ 2700. ] [ ] [ 3100. ] [ 3100. ] [ 3100. ] [ 3100. ] [ ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ 2300. ] [ ] [ 2200. ] [ 2200. ] [ 2200. ] [ 2200. ] [ 2200. ] [ ] [ 2600. ] [ 2600. ] [ 2600. ] [ 2600. ] [ ] [ 3000. ] [ 3000. ] [ 3000. ] [ 3000. ] [ 3000. ] [ 3000. ] [ ] [ 2900. ] [ 2900. ] [ 2900. ] [ 2900. ] [ ] [ 3300. ] [ 3300. ] [ 3300. ] [ 3300. ] [ 3300. ] [ 3300. ] [ ] [ 2500. ] [ 2500. ] [ 2500. ] [ 2500. ] [ 2500. ] [ ] ]"
 												}
 
 											}
@@ -50945,13 +50860,13 @@
 												"box" : 												{
 													"fontsize" : 6.0,
 													"id" : "obj-19",
-													"linecount" : 84,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 843.333322286605835, 143.0, 116.0, 189.0 ],
-													"text" : "[ [ 7900. ] [ 7600. ] [ 7400. ] [ 7200. ] [ 7400. ] [ 7200. ] [ 6900. ] [ 6700. ] [ 6900. ] [ 6700. ] [ 6400. ] [ 6000. ] [ ] ] [ [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5200. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5500. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 5700. ] [ 6000. ] [ 6000. ] [ 6000. ] [ 6000. ] [ 6000. ] [ 6000. ] [ 6000. ] [ 6000. ] [ 6000. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ 6400. ] [ ] ] [ [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6200. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6700. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7600. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7900. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 7400. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 7200. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ 6900. ] [ ] ]"
+													"text" : "[ [ 6500. ] [ 6600. ] [ 6400. ] [ 6300. ] [ 6100. ] [ 6200. ] [ 6000. ] [ 5900. ] [ 5700. ] [ 5800. ] [ 5600. ] [ 5500. ] [ ] ]"
 												}
 
 											}
@@ -50959,13 +50874,13 @@
 												"box" : 												{
 													"fontsize" : 6.0,
 													"id" : "obj-18",
-													"linecount" : 103,
+													"linecount" : 21,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1217.0, 206.0, 219.0, 866.0 ],
-													"text" : "[ [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6900. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6200. 6900. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6900. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ 5700. ] [ ] ] [ [ 5300. ] [ ] [ 5300. ] [ ] [ 5300. 6200. 6900. ] [ ] [ 5300. ] [ ] [ 5300. ] [ ] [ 5300. 6200. 6900. ] [ 5300. ] [ ] [ 5000. ] [ ] [ 5000. 5700. 6900. ] [ ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5000. 5700. 6900. ] [ ] [ 5000. ] [ 5000. ] [ ] [ 5000. 5700. 6700. ] [ ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5000. ] [ 5700. 6700. ] [ ] [ 5000. ] [ ] [ 5000. ] [ 5000. 6200. 6500. ] [ ] [ 4800. ] [ ] [ 4800. ] [ ] [ 4800. ] [ 6200. 6500. ] [ 4800. ] [ ] [ 4800. ] [ ] [ 4800. ] [ 4800. ] [ 4500. ] [ ] [ 4500. ] [ ] [ 4500. 6200. 6700. ] [ ] [ 4500. ] [ ] [ 4500. ] [ ] [ 4500. 6200. 6700. ] [ 4500. ] [ ] [ 4300. ] [ ] [ 4300. 6500. 6700. ] [ ] [ 4300. ] [ ] [ 4300. ] [ ] [ 4300. 6500. 6700. ] [ ] [ 4300. ] [ 4300. ] [ ] [ 4800. 5700. 6700. ] [ ] [ 4800. ] [ ] [ 4800. ] [ ] [ 4800. ] [ 5700. 6700. ] [ ] [ 4800. ] [ ] [ 4800. ] [ 4800. 6200. 6500. ] [ ] [ 4800. ] [ ] [ 5000. ] [ ] [ 5000. ] [ 6200. 6500. ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5000. ] [ 5000. ] [ ] [ 5300. ] [ ] [ 5300. ] [ 6200. 6900. ] [ 5300. ] [ ] [ 5300. ] [ ] [ 5300. ] [ 6200. 6900. ] [ 5300. ] [ 5300. ] [ ] [ 5000. ] [ 5700. 6900. ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5700. 6900. ] [ 5000. ] [ ] [ 5000. ] [ 5000. ] [ 5700. 6700. ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5000. 5700. 6700. ] [ ] [ 5000. ] [ ] [ 5000. 6200. 6500. ] [ 5000. ] [ ] [ 4800. ] [ ] [ 4800. ] [ ] [ 4800. 6200. 6500. ] [ ] [ 4800. ] [ ] [ 4800. ] [ ] [ 4800. ] [ 4800. ] [ 4500. ] [ ] [ 4500. ] [ 6200. 6700. ] [ 4500. ] [ ] [ 4500. ] [ ] [ 4500. ] [ 6200. 6700. ] [ 4500. ] [ 4500. ] [ ] [ 4300. ] [ 6500. 6700. ] [ 4300. ] [ ] [ 4300. ] [ ] [ 4300. ] [ ] [ 6500. 6700. ] [ 4300. ] [ ] [ 4300. ] [ 4300. ] [ 5700. 6700. ] [ 4800. ] [ ] [ 4800. ] [ ] [ 4800. ] [ ] [ 4800. 5700. 6700. ] [ ] [ 4800. ] [ ] [ 4800. 6200. 6500. ] [ 4800. ] [ ] [ 4800. ] [ ] [ 5000. ] [ ] [ 5000. 6200. 6500. ] [ ] [ 5000. ] [ ] [ 5000. ] [ ] [ 5000. ] [ 5000. ] [ ] ] [ [ 7700. ] [ ] [ 7700. ] [ 5000. 7700. ] [ 6000. 7700. ] [ 6700. ] [ 7200. ] [ 7900. ] [ 8100. ] [ 5000. 7700. ] [ 6000. 7700. ] [ 6700. ] [ 7200. ] [ 7900. ] [ 8100. ] [ 5000. 7700. ] [ 6000. 7700. ] [ 5000. 7700. ] [ 6200. 7700. ] [ 6700. 7700. ] [ 7400. 7700. ] [ 7900. ] [ 8400. ] [ 5000. ] [ 6200. ] [ 6700. 7700. ] [ 7400. 7700. ] [ 7700. 7900. ] [ 7700. 8400. ] [ 5000. ] [ 6200. ] [ 6700. 7700. ] [ 7400. 7700. ] [ 7900. ] [ 8400. ] [ 5000. ] [ 6000. ] [ 6700. 7700. ] [ 7200. 7700. ] [ 7900. ] [ 8100. ] [ 5000. ] [ 6000. ] [ 6700. 7700. ] [ 7200. 7700. ] [ 7700. 7900. ] [ 7700. 8100. ] [ 5000. 7700. ] [ 6000. 7700. ] [ 5000. ] [ 6200. ] [ 6700. 7900. ] [ 7400. 7900. ] [ 7900. ] [ 8400. ] [ 5000. ] [ 6200. ] [ 6700. 7900. ] [ 7400. 7900. ] [ 7900. ] [ 7900. 8400. ] [ 5000. ] [ 6200. ] [ 6700. 7900. ] [ 7400. 7900. ] [ 7900. ] [ 8400. ] [ 5000. ] [ 6200. ] [ 5700. 7900. ] [ 6200. 7900. ] [ 6900. ] [ 7400. ] [ 8100. ] [ 8400. ] [ 5700. 7900. ] [ 6200. 7900. ] [ 6900. 7900. ] [ 7400. 7900. ] [ 8100. ] [ 8100. 8400. ] [ 5700. ] [ 6200. ] [ 5700. ] [ 6200. ] [ 6900. 8100. ] [ 7400. 8100. ] [ 8100. ] [ 8100. 8600. ] [ 5700. ] [ 6200. ] [ 6900. 8100. ] [ 7400. 8100. ] [ 8100. ] [ 8600. ] [ 5700. ] [ 6200. ] [ 6900. 8100. ] [ 7400. 8100. ] [ 8100. ] [ ] [ 8100. ] [ 8100. ] [ ] [ 8100. ] [ ] [ 8100. ] [ 8100. ] [ ] [ 7900. 8100. ] [ 8100. 8400. ] [ 5000. ] [ 6200. ] [ 6700. ] [ 7400. ] [ 7900. 8100. ] [ 8100. 8400. ] [ 5000. ] [ 6200. ] [ 6700. ] [ 7400. ] [ 5000. 8100. ] [ 6000. 8100. ] [ 6700. 8100. ] [ 7200. 8100. ] [ 7900. 8400. ] [ 8100. ] [ 5000. 7400. ] [ 6000. ] [ 6700. ] [ 7200. ] [ 7400. 7900. 8400. ] [ 8100. ] [ 5000. 8400. ] [ 6000. ] [ 5000. 7400. ] [ 6200. ] [ 6700. 8400. ] [ 7400. ] [ 7400. 7900. ] [ 8400. ] [ 5000. ] [ 6200. ] [ 6700. 8400. ] [ 7400. ] [ 7400. 7900. ] [ 8400. ] [ 5000. 8400. ] [ 6200. ] [ 6700. 8400. ] [ 7400. ] [ 7400. 7900. ] [ 8400. ] [ 5700. 8600. ] [ 6200. ] [ 6900. 7400. ] [ 7400. ] [ 8100. ] [ 8400. ] [ 5700. 7400. 8600. ] [ 6200. ] [ 6900. 8600. ] [ 7400. ] [ 7400. 8100. ] [ 8400. ] [ 5700. 8600. ] [ 6200. ] [ 5700. 7400. ] [ 6200. ] [ 6900. ] [ 7400. ] [ 8100. 8600. ] [ 8600. ] [ 5700. 7400. ] [ 6200. ] [ 6900. ] [ 7400. ] [ 8100. 8600. ] [ 8600. ] [ 5700. 7400. ] [ 6200. ] [ 6900. 8900. ] [ 7400. ] [ 7700. 8100. ] [ 8600. ] [ 5700. 8900. ] [ 6200. ] [ 6900. 7700. ] [ 7400. ] [ 8100. 8900. ] [ 8400. ] [ 5700. 7700. ] [ 6200. ] [ 6900. 8900. ] [ 7400. ] [ 7700. 8100. ] [ 8400. ] [ 5700. 8900. ] [ 6200. ] [ 5700. 8900. ] [ 6200. ] [ 6900. 7700. ] [ 7400. ] [ 8100. 8900. ] [ 8600. ] [ 5700. 8900. ] [ 6200. ] [ 6900. 7700. ] [ 7400. ] [ 8100. 8600. ] [ 8600. ] [ ] [ 8600. ] [ 8600. ] [ 8600. ] [ ] [ 8600. ] [ ] [ ] [ 7900. 8600. ] [ 8100. ] [ 5000. 7400. ] [ 6000. ] [ 5000. ] [ 6200. ] [ 6700. 8600. ] [ 7400. ] [ 7900. ] [ 8400. ] [ 5000. 8400. ] [ 6200. 8400. ] [ 6700. ] [ 7400. ] [ 7900. ] [ ] [ 5000. 8400. ] [ 6200. 8400. ] [ 6700. 8400. ] [ 7400. 8400. ] [ 7900. ] [ 8400. ] [ 5000. 8400. ] [ 6000. 8400. ] [ 6700. ] [ 7200. ] [ 7900. ] [ 8100. ] [ 5000. 8400. ] [ 6000. 8400. ] [ 6700. ] [ 7200. ] [ 7900. ] [ 8100. ] [ 5000. 8400. ] [ 6000. 8400. ] [ 5000. ] [ 6200. ] [ 8100. ] [ 7400. 8100. ] [ ] [ 5000. ] [ 6200. ] [ 6700. 8100. ] [ 7400. 8100. ] [ 8100. ] [ 5000. ] [ 6200. ] [ 6700. 8100. ] [ 7400. ] [ 8100. ] [ ] [ 5000. 7200. ] [ 6200. ] [ 5000. 5700. 8100. ] [ 6000. ] [ 6700. 7200. ] [ 7200. ] [ 7900. 8100. ] [ 8100. ] [ 5000. 8100. ] [ 6000. ] [ 6700. 7200. ] [ 7200. ] [ 7900. 8100. ] [ 8100. ] [ 5000. 6900. ] [ 6000. ] [ 5000. ] [ 6200. ] [ 6700. 6900. 8100. ] [ 7400. ] [ 7900. 8100. ] [ 8400. ] [ 5000. 6900. ] [ 6200. ] [ 6700. 8100. ] [ 7400. ] [ 6900. 7900. ] [ 8400. ] [ 5000. 8100. ] [ 6200. ] [ 6700. 8100. ] [ 7400. ] [ 6900. 7900. ] [ 8400. ] [ 5000. 8100. ] [ 6000. ] [ 6700. 8100. ] [ 7200. ] [ 6900. 7900. ] [ 8100. ] [ 5000. 7900. ] [ 6000. ] [ 6700. 6900. ] [ 7200. ] [ ] [ 8100. ] [ 5000. 6700. 7900. ] [ 6000. ] [ 5000. 7900. ] [ 6200. ] [ 6700. ] [ 7400. ] [ 7900. ] [ 8400. ] [ 5000. 6700. ] [ 6200. ] [ 6700. ] [ 7400. ] [ 7900. ] [ 8400. ] [ 5000. 6700. ] [ 6200. ] [ 6700. 7900. ] [ 7400. 7900. ] [ 5000. 7900. ] [ 6000. 7900. ] [ 6700. ] [ 7200. ] [ 7700. 7900. ] [ 7700. 8100. ] [ 5000. ] [ 6000. ] [ 6700. ] [ 7200. ] [ 7700. 7900. ] [ 7700. 8100. ] [ 5000. 7700. ] [ 6000. ] [ 5000. ] [ 6200. ] [ 6700. 7700. ] [ 7400. ] [ 6500. 7900. ] [ 8400. ] [ 5000. 7700. ] [ 6200. ] [ 6700. ] [ 7400. ] [ 6500. 7700. 7900. ] [ 8400. ] [ 5000. ] [ 6200. ] [ 6700. 7700. ] [ 7400. ] [ 6500. 7900. ] [ 8400. ] [ 7700. ] [ ] [ 6500. 6700. ] [ 7200. ] [ 7900. ] [ 8100. ] [ 6500. 7700. ] [ ] [ 6700. 7700. ] [ 7200. ] [ 6500. 7900. ] [ 8100. ] [ 7700. ] [ ] [ 6500. ] [ 6200. ] [ 6700. ] [ 7400. ] [ 7700. 7900. ] [ 8400. ] [ 6500. ] [ 6200. ] [ 6700. 7700. ] [ 7400. ] [ 7700. 7900. ] [ 8400. ] [ 6500. ] [ 6200. ] [ 6700. 7400. ] [ 7400. ] [ 6200. 7900. ] [ 8400. ] [ ] [ 6000. ] [ 6200. 6700. 7400. ] [ 7200. ] [ 7400. 7900. ] [ 7400. 8100. ] [ 5000. ] [ 6000. ] [ 6700. 7400. ] [ 7200. 7400. ] [ 7900. ] [ 8100. ] [ 5000. ] [ 6000. ] [ 5000. 7400. ] [ 6200. ] [ 6700. 7400. ] [ 7400. ] [ 7400. 7900. ] [ 8400. ] [ 5000. 7400. ] [ 6200. ] [ 6200. 6700. ] [ 7400. ] ]"
+													"text" : "[ [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6900. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6200. 6900. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6200. 6900. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6000. 6500. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 6000. 6500. ] [ ] [ 5700. ] [ ] [ 5700. ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6200. ] [ ] [ 5700. ] [ ] [ 5700. ] [ ] [ 5700. 6000. 6500. ] [ ] [ 5700. ] [ 5700. ] [ ] ]"
 												}
 
 											}
@@ -50979,7 +50894,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1554.0, 143.0, 69.0, 1483.0 ],
-													"text" : "[ [ 9100. ] [ 9100. ] [ 9500. ] [ 9500. ] [ 9500. ] [ 9500. ] [ 9800. ] [ 8600. ] [ 8600. ] [ 8800. ] [ 8800. ] [ 8800. ] [ 8800. ] [ 9300. ] [ 9300. ] [ 9800. ] [ 9800. ] [ 9800. ] [ 9800. ] [ 10000. ] [ 10000. ] [ 9500. ] [ 9500. ] [ 9500. ] [ 9500. ] [ 9800. ] [ 9800. ] [ 9100. ] [ 9100. ] ]"
+													"text" : "[ [ 9100. ] [ 9100. ] [ 9600. ] [ 9500. ] [ 9500. ] [ 9500. ] [ 9900. ] [ 8700. ] [ 8700. ] [ 8800. ] [ 8800. ] [ 8800. ] [ 8800. ] [ 9200. ] [ 9200. ] [ 9700. ] [ 9700. ] [ 9700. ] [ 9700. ] [ 10100. ] [ 10100. ] [ 9400. ] [ 9400. ] [ 9400. ] [ 9400. ] [ 9800. ] [ 9800. ] [ 9100. ] [ 9100. ] ]"
 												}
 
 											}
@@ -53238,7 +53153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1042.0, 457.666662931442261, 102.0, 22.0 ],
-					"text" : "24000."
+					"text" : "4800."
 				}
 
 			}
@@ -53334,7 +53249,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 664.0, 457.666662931442261, 102.0, 22.0 ],
-					"text" : "0."
+					"text" : "56000."
 				}
 
 			}
@@ -53430,7 +53345,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.0, 457.666662931442261, 102.0, 22.0 ],
-					"text" : "4000."
+					"text" : "8000."
 				}
 
 			}
@@ -53771,7 +53686,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1648.0, 824.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 250.499977827072144, 670.928574000000026, 82.0 ],
+					"presentation_rect" : [ 301.0, 250.499977827072144, 686.928574000000026, 82.0 ],
 					"proportion" : 0.5
 				}
 
@@ -53788,7 +53703,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1663.0, 839.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.166689991950989, 342.833333373069763, 725.928574000000026, 82.0 ],
+					"presentation_rect" : [ 638.166689991950989, 342.833333373069763, 725.928574000000026, 82.0 ],
 					"proportion" : 0.5
 				}
 
@@ -53805,7 +53720,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1678.0, 854.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 639.166689991950989, 437.833333373069763, 360.928574000000026, 78.500026702880859 ],
+					"presentation_rect" : [ 627.0, 437.833333373069763, 360.928574000000026, 78.500026702880859 ],
 					"proportion" : 0.5
 				}
 
@@ -53822,7 +53737,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1678.0, 955.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1004.166689991950989, 437.833333373069763, 360.928574000000026, 78.500026702880859 ],
+					"presentation_rect" : [ 992.166689991950989, 437.833333373069763, 372.928574000000026, 78.500026702880859 ],
 					"proportion" : 0.5
 				}
 
@@ -53839,7 +53754,24 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1693.0, 970.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1178.166689991950761, 251.083326230446346, 184.928574000000026, 80.500026702880859 ],
+					"presentation_rect" : [ 1179.166689991950761, 251.083326230446346, 184.928574000000026, 80.500026702880859 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"id" : "obj-466",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1708.0, 985.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 992.238115991950735, 251.083326230446346, 184.928574000000026, 80.500026702880859 ],
 					"proportion" : 0.5
 				}
 
@@ -53999,17 +53931,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-370", 0 ],
-					"midpoints" : [ 691.961884000000055, 1263.0, 768.0, 1263.0, 768.0, 1227.0, 1809.0, 1227.0, 1809.0, 948.0, 1738.721464003921483, 948.0 ],
-					"source" : [ "obj-102", 6 ]
+					"destination" : [ "obj-201", 0 ],
+					"midpoints" : [ 594.239663777844726, 1278.0, 645.0, 1278.0, 645.0, 1694.0, 327.5, 1694.0 ],
+					"source" : [ "obj-102", 5 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-480", 0 ],
-					"midpoints" : [ 594.239663777844726, 1278.0, 645.0, 1278.0, 645.0, 1694.0, 329.476231983901926, 1694.0 ],
-					"source" : [ "obj-102", 5 ]
+					"destination" : [ "obj-370", 0 ],
+					"midpoints" : [ 691.961884000000055, 1263.0, 768.0, 1263.0, 768.0, 1227.0, 1809.0, 1227.0, 1809.0, 948.0, 1738.721464003921483, 948.0 ],
+					"source" : [ "obj-102", 6 ]
 				}
 
 			}
@@ -54405,8 +54337,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-471", 0 ],
-					"midpoints" : [ 791.5, 1278.0, 729.0, 1278.0, 729.0, 1515.0 ],
+					"destination" : [ "obj-178", 0 ],
+					"midpoints" : [ 791.5, 1278.0, 729.0, 1278.0, 729.0, 1515.0, 818.5, 1515.0 ],
 					"source" : [ "obj-157", 0 ]
 				}
 
@@ -54463,7 +54395,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"midpoints" : [ 120.533343386650088, 1088.0, 411.0, 1088.0, 411.0, 780.0, 1027.428574000000026, 780.0 ],
 					"source" : [ "obj-164", 2 ]
 				}
 
@@ -54479,7 +54410,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
-					"midpoints" : [ 171.833343029022217, 1056.0, 411.0, 1056.0, 411.0, 834.0, 1002.0, 834.0, 1002.0, 801.0, 1177.749977707862854, 801.0 ],
+					"midpoints" : [ 171.833343029022217, 1055.0, 411.0, 1055.0, 411.0, 834.0, 1002.0, 834.0, 1002.0, 801.0, 1177.749977707862854, 801.0 ],
 					"source" : [ "obj-164", 5 ]
 				}
 
@@ -54546,7 +54477,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-472", 0 ],
+					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-167", 0 ]
 				}
 
@@ -54600,14 +54531,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-477", 0 ],
+					"destination" : [ "obj-190", 0 ],
 					"source" : [ "obj-175", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-478", 0 ],
+					"destination" : [ "obj-191", 0 ],
 					"source" : [ "obj-176", 0 ]
 				}
 
@@ -54848,8 +54779,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-479", 0 ],
-					"midpoints" : [ 1016.833379983901978, 1950.0, 620.476231983901926, 1950.0 ],
+					"destination" : [ "obj-200", 0 ],
+					"midpoints" : [ 1016.833379983901978, 1950.0, 620.476231983901926, 1950.0, 620.476231983901926, 1821.0, 457.083310008049011, 1821.0 ],
 					"source" : [ "obj-189", 0 ]
 				}
 
@@ -55707,16 +55638,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
-					"midpoints" : [ 110.5, 342.0, 465.0, 342.0, 465.0, 720.0, 558.0, 720.0, 558.0, 987.0, 787.761884008049037, 987.0 ],
-					"source" : [ "obj-290", 1 ]
+					"destination" : [ "obj-469", 1 ],
+					"source" : [ "obj-290", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
-					"source" : [ "obj-290", 0 ]
+					"destination" : [ "obj-80", 0 ],
+					"midpoints" : [ 110.5, 342.0, 465.0, 342.0, 465.0, 720.0, 558.0, 720.0, 558.0, 987.0, 787.761884008049037, 987.0 ],
+					"source" : [ "obj-290", 1 ]
 				}
 
 			}
@@ -55740,16 +55671,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-292", 0 ]
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 522.5, 342.0, 843.0, 342.0, 843.0, 624.0, 849.0, 624.0, 849.0, 720.0, 930.5, 720.0, 930.5, 1065.0, 960.761884008049037, 1065.0 ],
+					"source" : [ "obj-292", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-468", 0 ],
-					"midpoints" : [ 522.5, 342.0, 843.0, 342.0, 843.0, 624.0, 849.0, 624.0, 849.0, 720.0, 930.5, 720.0 ],
-					"source" : [ "obj-292", 1 ]
+					"destination" : [ "obj-477", 1 ],
+					"source" : [ "obj-292", 0 ]
 				}
 
 			}
@@ -56015,7 +55946,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-478", 1 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -56367,6 +56298,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-157", 0 ],
+					"midpoints" : [ 1443.976197340324688, 930.0, 1392.0, 930.0, 1392.0, 1077.0, 912.0, 1077.0, 912.0, 1242.0, 791.5, 1242.0 ],
+					"order" : 0,
+					"source" : [ "obj-335", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-354", 5 ],
 					"midpoints" : [ 1443.976197340324688, 934.0, 1395.0, 934.0, 1395.0, 786.0, 750.878550666666683, 786.0 ],
 					"order" : 1,
@@ -56378,15 +56318,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-354", 4 ],
 					"order" : 2,
-					"source" : [ "obj-335", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-470", 0 ],
-					"midpoints" : [ 1443.976197340324688, 930.0, 1392.0, 930.0, 1392.0, 1077.0 ],
-					"order" : 0,
 					"source" : [ "obj-335", 0 ]
 				}
 
@@ -57072,15 +57003,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-176", 0 ],
 					"midpoints" : [ 1468.976197340324688, 1104.0, 1512.0, 1104.0, 1512.0, 1614.0, 813.833379983901978, 1614.0 ],
-					"order" : 1,
-					"source" : [ "obj-375", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-354", 9 ],
-					"order" : 0,
 					"source" : [ "obj-375", 0 ]
 				}
 
@@ -57197,7 +57119,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-473", 0 ],
+					"destination" : [ "obj-177", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -57599,60 +57521,40 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 930.5, 1065.0, 960.761884008049037, 1065.0 ],
-					"source" : [ "obj-468", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-469", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-157", 0 ],
-					"midpoints" : [ 912.0, 1077.0, 912.0, 1242.0, 791.5, 1242.0 ],
-					"source" : [ "obj-470", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-178", 0 ],
-					"midpoints" : [ 818.5, 1515.0 ],
-					"source" : [ "obj-471", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-472", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-177", 0 ],
+					"destination" : [ "obj-469", 0 ],
+					"order" : 3,
 					"source" : [ "obj-473", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-180", 0 ],
-					"source" : [ "obj-474", 0 ]
+					"destination" : [ "obj-477", 0 ],
+					"order" : 2,
+					"source" : [ "obj-473", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-179", 0 ],
-					"source" : [ "obj-475", 0 ]
+					"destination" : [ "obj-478", 0 ],
+					"order" : 1,
+					"source" : [ "obj-473", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-479", 0 ],
+					"order" : 0,
+					"source" : [ "obj-473", 0 ]
 				}
 
 			}
@@ -57742,30 +57644,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-190", 0 ],
+					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-477", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-191", 0 ],
+					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-478", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-200", 0 ],
-					"midpoints" : [ 620.476231983901926, 1821.0, 457.083310008049011, 1821.0 ],
+					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-479", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-201", 0 ],
-					"source" : [ "obj-480", 0 ]
 				}
 
 			}
@@ -57909,7 +57803,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-474", 0 ],
+					"destination" : [ "obj-180", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -57946,15 +57840,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-469", 0 ],
-					"midpoints" : [ 1287.5, 444.0, 1215.0, 444.0, 1215.0, 615.0, 1230.0, 615.0, 1230.0, 720.0, 1284.0, 720.0, 1284.0, 1041.0, 1341.000027418136597, 1041.0 ],
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 1287.5, 444.0, 1215.0, 444.0, 1215.0, 615.0, 1230.0, 615.0, 1230.0, 720.0, 1284.0, 720.0, 1284.0, 1041.0, 1339.961884008049083, 1041.0 ],
 					"source" : [ "obj-63", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-479", 1 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -58022,7 +57916,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-475", 0 ],
+					"destination" : [ "obj-179", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -58976,20 +58870,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.repeat.maxpat",
-				"bootpath" : "~/Documents/MuTe/Thesis/Calendar_Max_Project/Calendar_19/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.div.maxpat",
-				"bootpath" : "~/Documents/MuTe/Thesis/Calendar_Max_Project/Calendar_19/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "TempestPitchTranslator.maxpat",
 				"bootpath" : "~/Documents/MuTe/Thesis/Calendar_Max_Project/Calendar_19/patchers",
 				"patcherrelativepath" : ".",
@@ -59053,7 +58933,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.score2roll.maxpat",
+				"name" : "bach.repeat.maxpat",
+				"bootpath" : "~/Documents/MuTe/Thesis/Calendar_Max_Project/Calendar_19/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.div.maxpat",
 				"bootpath" : "~/Documents/MuTe/Thesis/Calendar_Max_Project/Calendar_19/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -59103,6 +58990,13 @@
 			}
 , 			{
 				"name" : "SetMIdiChannel_Cuatro.maxpat",
+				"bootpath" : "~/Documents/MuTe/Thesis/Calendar_Max_Project/Calendar_19/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.score2roll.maxpat",
 				"bootpath" : "~/Documents/MuTe/Thesis/Calendar_Max_Project/Calendar_19/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -59302,22 +59196,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.beatbox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.beatunbox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mapelem.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.length.mxo",
 				"type" : "iLaX"
 			}
@@ -59334,7 +59212,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.beatunbox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.beatbox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.playkeys.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.expr.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -59351,6 +59241,10 @@
 			}
 , 			{
 				"name" : "bach.quantize.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
 				"type" : "iLaX"
 			}
 , 			{
